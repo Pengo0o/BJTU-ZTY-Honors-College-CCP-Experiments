@@ -1,0 +1,9 @@
+0.6
+2019.2
+Nov  6 2019
+21:57:16
+E:/project/display_adder/display/display/display.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
+E:/project/display_adder/display/display/display.srcs/sim_1/new/display_tb.sv,1715589217,systemVerilog,,,,display_tb,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/project/display_adder/display/display/display.srcs/sources_1/new/display.sv,1713467260,systemVerilog,,E:/project/display_adder/display/display/display.srcs/sources_1/new/seg7.sv,,display,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/project/display_adder/display/display/display.srcs/sources_1/new/seg7.sv,1713467298,systemVerilog,,E:/project/display_adder/display/display/display.srcs/sources_1/new/top.sv,,seg7,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/project/display_adder/display/display/display.srcs/sources_1/new/top.sv,1715307745,systemVerilog,,E:/project/display_adder/display/display/display.srcs/sim_1/new/display_tb.sv,,adder;adder32;top,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,

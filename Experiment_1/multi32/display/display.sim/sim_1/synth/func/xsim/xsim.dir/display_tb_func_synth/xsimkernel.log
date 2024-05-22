@@ -1,0 +1,7 @@
+Running: xsim.dir/display_tb_func_synth/xsimk.exe -simmode gui -wdb display_tb_func_synth.wdb -simrunnum 0 -socket 55434
+Design successfully loaded
+Design Loading Memory Usage: 9536 KB (Peak: 9536 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 11076 KB (Peak: 11076 KB)
+Simulation CPU Usage: 61 ms

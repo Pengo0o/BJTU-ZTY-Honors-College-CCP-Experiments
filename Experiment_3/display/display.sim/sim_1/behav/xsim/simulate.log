@@ -1,0 +1,7 @@
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+Block Memory Generator module part2_word_extension_tb.RAM_word_extension.RAM_word_extension1.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module part2_word_extension_tb.RAM_word_extension.RAM_word_extension2.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module part2_word_extension_tb.RAM_word_extension.RAM_word_extension3.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module part2_word_extension_tb.RAM_word_extension.RAM_word_extension4.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+$stop called at time : 160 ns : File "E:/project/display_3/display_1/display/display.srcs/sim_1/new/display_tb.sv" Line 126

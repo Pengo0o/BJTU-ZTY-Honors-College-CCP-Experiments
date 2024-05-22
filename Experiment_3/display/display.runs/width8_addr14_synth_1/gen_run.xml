@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="width8_addr14_synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1716022069">
+  <File Type="PA-TCL" Name="width8_addr14.tcl"/>
+  <File Type="REPORTS-TCL" Name="width8_addr14_reports.tcl"/>
+  <File Type="RDS-RDS" Name="width8_addr14.vds"/>
+  <File Type="RDS-UTIL" Name="width8_addr14_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="width8_addr14_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="width8_addr14.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/width8_addr14">
+    <File Path="$PSRCDIR/sources_1/ip/width8_addr14/width8_addr14.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="width8_addr14"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/width8_addr14">
+    <File Path="$PSRCDIR/sources_1/ip/width8_addr14/width8_addr14.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="width8_addr14"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../display.srcs/sources_1/ip/clk_wiz_0" \
+"display_tb_func_impl.v" \
+
+sv xil_defaultlib  --include "../../../../../display.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../../display.srcs/sources_1/new/display.sv" \
+"../../../../../display.srcs/sources_1/new/seg7.sv" \
+"../../../../../display.srcs/sources_1/new/top.sv" \
+"../../../../../display.srcs/sim_1/new/display_tb.sv" \
+
+# Do not sort compile order
+nosort
