@@ -66,111 +66,109 @@ endmodule
 
 
 
-module part2_word_extension_tb ();
+// module part2_word_extension_tb ();
 
-  logic [7:0] ram_data_i;
-  logic [7:0] ram_data_o;
-  logic [15:0] ram_addr_i;
-  logic wea;
-  logic ram_ce;
-  logic clk;
+//   logic [7:0] ram_data_i;
+//   logic [7:0] ram_data_o;
+//   logic [15:0] ram_addr_i;
+//   logic wea;
+//   logic ram_ce;
+//   logic clk;
 
-  initial begin
-    clk = 1'b1;
-    forever #10 clk = ~clk;
-  end
-  initial begin
-    ram_data_i = 8'b0000_0001;
-    ram_addr_i = 16'b0000_0000_0000_0000;
-    wea = 1'b1;
-    ram_ce = 1'b1;
+//   initial begin
+//     clk = 1'b1;
+//     forever #10 clk = ~clk;
+//   end
+//   initial begin
+//     ram_data_i = 8'b0000_0001;
+//     ram_addr_i = 16'b0000_0000_0000_0000;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
 
-    #20;
-    ram_data_i = 8'b0000_0010;
-    ram_addr_i = 16'b0000_0000_0000_0001;
-    wea = 1'b1;
-    ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0010;
+//     ram_addr_i = 16'b0000_0000_0000_0001;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
 
-    #20;
-    ram_data_i = 8'b0000_0010;
-    ram_addr_i = 16'b0000_0000_0000_0001;
-    wea = 1'b0;
-    ram_ce = 1'b1;
-    #20;
+//     #20;
+//     ram_data_i = 8'b0000_0010;
+//     ram_addr_i = 16'b0000_0000_0000_0001;
+//     wea = 1'b0;
+//     ram_ce = 1'b1;
+//     #20;
 
-    ram_data_i = 8'b0000_0011;
-    ram_addr_i = 16'b0100_0000_0000_0010;
-    wea = 1'b1;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_0011;
-    ram_addr_i = 16'b0100_0000_0000_0010;
-    wea = 1'b0;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_0100;
-    ram_addr_i = 16'b0100_0000_0000_0011;
-    wea = 1'b1;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_0100;
-    ram_addr_i = 16'b0100_0000_0000_0011;
-    wea = 1'b0;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_0101;
-    ram_addr_i = 16'b1000_0000_0000_0100;
-    wea = 1'b1;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_0101;
-    ram_addr_i = 16'b1000_0000_0000_0100;
-    wea = 1'b0;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_0110;
-    ram_addr_i = 16'b1000_0000_0000_0101;
-    wea = 1'b1;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_0110;
-    ram_addr_i = 16'b1000_0000_0000_0101;
-    wea = 1'b0;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_0111;
-    ram_addr_i = 16'b1100_0000_0000_0110;
-    wea = 1'b1;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_0111;
-    ram_addr_i = 16'b1100_0000_0000_0110;
-    wea = 1'b0;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_1000;
-    ram_addr_i = 16'b1100_0000_0000_0111;
-    wea = 1'b1;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_1000;
-    ram_addr_i = 16'b1100_0000_0000_0111;
-    wea = 1'b0;
-    ram_ce = 1'b1;
-    #20;
-    $stop;
-  end
-  part2_word_extension RAM_word_extension (
-      .clk(clk),
-      .ram_data_i(ram_data_i),
-      .ram_data_o(ram_data_o),
-      .ram_addr_i(ram_addr_i),
-      .wea(wea),
-      .ram_ce(ram_ce)
-  );
-
-
-endmodule
+//     ram_data_i = 8'b0000_0011;
+//     ram_addr_i = 16'b0100_0000_0000_0010;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0011;
+//     ram_addr_i = 16'b0100_0000_0000_0010;
+//     wea = 1'b0;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0100;
+//     ram_addr_i = 16'b0100_0000_0000_0011;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0100;
+//     ram_addr_i = 16'b0100_0000_0000_0011;
+//     wea = 1'b0;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0101;
+//     ram_addr_i = 16'b1000_0000_0000_0100;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0101;
+//     ram_addr_i = 16'b1000_0000_0000_0100;
+//     wea = 1'b0;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0110;
+//     ram_addr_i = 16'b1000_0000_0000_0101;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0110;
+//     ram_addr_i = 16'b1000_0000_0000_0101;
+//     wea = 1'b0;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0111;
+//     ram_addr_i = 16'b1100_0000_0000_0110;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0111;
+//     ram_addr_i = 16'b1100_0000_0000_0110;
+//     wea = 1'b0;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_1000;
+//     ram_addr_i = 16'b1100_0000_0000_0111;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_1000;
+//     ram_addr_i = 16'b1100_0000_0000_0111;
+//     wea = 1'b0;
+//     ram_ce = 1'b1;
+//     #20;
+//     $stop;
+//   end
+//   part2_word_extension RAM_word_extension (
+//       .clk(clk),
+//       .ram_data_i(ram_data_i),
+//       .ram_data_o(ram_data_o),
+//       .ram_addr_i(ram_addr_i),
+//       .wea(wea),
+//       .ram_ce(ram_ce)
+//   );
+// endmodule
 
 
 
@@ -263,3 +261,74 @@ endmodule
 //   );
 
 // endmodule
+
+
+module width8_addr14_tb ();
+  logic [7:0] ram_data_i;
+  logic [7:0] ram_data_o;
+  logic [15:0] ram_addr_i;
+  logic wea;
+  logic ram_ce;
+  logic clk;
+
+  initial begin
+    clk = 1'b1;
+    forever #10 clk = ~clk;
+  end
+
+  initial begin
+    ram_data_i = 8'b0000_0001;
+    ram_addr_i = 16'b0000_0000_0000_0000;
+    wea = 1'b1;
+    ram_ce = 1'b1;
+    #20;
+    ram_data_i = 8'b0000_0010;
+    ram_addr_i = 16'b0000_0000_0000_0001;
+    wea = 1'b1;
+    ram_ce = 1'b1;
+    #20;
+    ram_data_i = 8'b0000_0010;
+    ram_addr_i = 16'b0000_0000_0000_0001;
+    wea = 1'b0;
+    ram_ce = 1'b1;
+    #20;
+    ram_data_i = 8'b0000_0011;
+    ram_addr_i = 16'b0100_0000_0000_0010;
+    wea = 1'b1;
+    ram_ce = 1'b1;
+    #20;
+    ram_data_i = 8'b0000_0011;
+    ram_addr_i = 16'b0100_0000_0000_0010;
+    wea = 1'b0;
+    ram_ce = 1'b1;
+    #20;
+    ram_data_i = 8'b0000_0100;
+    ram_addr_i = 16'b0100_0000_0000_0011;
+    wea = 1'b1;
+    ram_ce = 1'b1;
+    #20;
+    ram_data_i = 8'b0000_0100;
+    ram_addr_i = 16'b0100_0000_0000_0011;
+    wea = 1'b0;
+    ram_ce = 1'b1;
+    #20;
+    ram_data_i = 8'b0000_0101;
+    ram_addr_i = 16'b1000_0000_0000;
+    wea = 1'b1;
+    ram_ce = 1'b1;
+    #20;
+    ram_data_i = 8'b0000_0101;
+    ram_addr_i = 16'b1000_0000_0000;
+    wea = 1'b0;
+    ram_ce = 1'b1;
+    $stop;
+  end
+  width8_addr14 RAM_word_extension1 (
+      .clka (clk),
+      .ena  (ram_ce),
+      .wea  (wea),
+      .addra(ram_addr_i[13:0]),
+      .dina (ram_data_i),
+      .douta(ram_data_o)
+  );
+endmodule

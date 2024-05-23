@@ -3,7 +3,7 @@
 Nov  6 2019
 21:57:16
 E:/project/Experiment_3/display/display.sim/sim_1/behav/xsim/glbl.v,1573089660,verilog,,,,glbl,,,,,,,,
-E:/project/Experiment_3/display/display.srcs/sim_1/new/display_tb.sv,1716384342,systemVerilog,,,,part2_word_extension_tb,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/project/Experiment_3/display/display.srcs/sim_1/new/display_tb.sv,1716384342,systemVerilog,,,,width8_addr14_tb,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
 E:/project/Experiment_3/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1713454518,verilog,,E:/project/Experiment_3/display/display.srcs/sources_1/ip/width8_addr14/sim/width8_addr14.v,,clk_wiz_0,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
 E:/project/Experiment_3/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1713454518,verilog,,E:/project/Experiment_3/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
 E:/project/Experiment_3/display/display.srcs/sources_1/ip/width8_addr14/sim/width8_addr14.v,1716022068,verilog,,,,width8_addr14,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
@@ -11,4 +11,4 @@ E:/project/Experiment_3/display/display.srcs/sources_1/new/display.sv,1715587848
 E:/project/Experiment_3/display/display.srcs/sources_1/new/part2_word_extension.sv,1716089687,systemVerilog,,E:/project/Experiment_3/display/display.srcs/sources_1/new/part3_bit_extension.sv,,part2_word_extension,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
 E:/project/Experiment_3/display/display.srcs/sources_1/new/part3_bit_extension.sv,1716096676,systemVerilog,,E:/project/Experiment_3/display/display.srcs/sim_1/new/display_tb.sv,,part3_bit_extension,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
 E:/project/Experiment_3/display/display.srcs/sources_1/new/seg7.sv,1713467298,systemVerilog,,E:/project/Experiment_3/display/display.srcs/sources_1/new/top.sv,,seg7,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
-E:/project/Experiment_3/display/display.srcs/sources_1/new/top.sv,1716032878,systemVerilog,,E:/project/Experiment_3/display/display.srcs/sources_1/new/part2_word_extension.sv,,top,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
+E:/project/Experiment_3/display/display.srcs/sources_1/new/top.sv,1716424158,systemVerilog,,E:/project/Experiment_3/display/display.srcs/sources_1/new/part2_word_extension.sv,,top,,,../../../../display.srcs/sources_1/ip/clk_wiz_0,,,,,
