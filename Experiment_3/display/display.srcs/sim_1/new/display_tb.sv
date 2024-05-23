@@ -172,104 +172,15 @@ endmodule
 
 
 
-// module part3_bit_extension_tb ();
+module part3_bit_extension_tb ();
 
-//   logic [31:0] ram_data_i;
-//   logic [31:0] ram_data_o;
-//   logic [15:0] ram_addr_i;
-//   logic wea;
-//   logic ram_ce;
-//   logic clk;
-//   logic [3:0] ram_data_sel;
-
-//   initial begin
-//     clk = 1'b1;
-//     forever #10 clk = ~clk;
-//   end
-
-//   initial begin
-//     ram_data_i = 32'b0000_0000_0000_0000_0000_0000_0000_0001;
-//     ram_addr_i = 16'b0000_0000_0000_0000;
-//     wea = 1'b1;
-//     ram_ce = 1'b1;
-//     ram_data_sel = 4'b0001;
-//     #20 ram_data_i = 32'b0000_0000_0000_0000_0000_0000_0000_0001;
-//     ram_addr_i = 16'b0000_0000_0000_0000;
-//     wea = 1'b0;
-//     ram_ce = 1'b1;
-//     ram_data_sel = 4'b0001;
-//     #20;
-//     ram_data_i = 32'b0000_0000_0000_0000_0000_0010_0000_0000;
-//     ram_addr_i = 16'b0100_0000_0000_0001;
-//     wea = 1'b1;
-//     ram_ce = 1'b1;
-//     ram_data_sel = 4'b0010;
-//     #20;
-//     ram_data_i = 32'b0000_0000_0000_0000_0000_0010_0000_0000;
-//     ram_addr_i = 16'b0100_0000_0000_0001;
-//     wea = 1'b0;
-//     ram_ce = 1'b1;
-//     ram_data_sel = 4'b0010;
-//     #20;
-//     ram_data_i = 32'b0000_0000_0000_0011_0000_0000_0000_0000;
-//     ram_addr_i = 16'b1000_0000_0000_0010;
-//     wea = 1'b1;
-//     ram_ce = 1'b1;
-//     ram_data_sel = 4'b0100;
-//     #20;
-//     ram_data_i = 32'b0000_0000_0000_0011_0000_0000_0000_0000;
-//     ram_addr_i = 16'b1000_0000_0000_0010;
-//     wea = 1'b0;
-//     ram_ce = 1'b1;
-//     ram_data_sel = 4'b0100;
-//     #20;
-//     ram_data_i = 32'b0000_0100_0000_0000_0000_0000_0000_0000;
-//     ram_addr_i = 16'b1100_0000_0000_0011;
-//     wea = 1'b1;
-//     ram_ce = 1'b1;
-//     ram_data_sel = 4'b1000;
-//     #20;
-//     ram_data_i = 32'b0000_0100_0000_0000_0000_0000_0000_0000;
-//     ram_addr_i = 16'b1100_0000_0000_0011;
-//     wea = 1'b0;
-//     ram_ce = 1'b1;
-//     ram_data_sel = 4'b1000;
-//     #20;
-//     ram_data_i = 32'b0000_0000_0000_0000_0000_0000_0000_0101;
-//     ram_addr_i = 16'b0000_0000_0000_0100;
-//     wea = 1'b1;
-//     ram_ce = 1'b1;
-//     ram_data_sel = 4'b1111;
-//     #20;
-//     ram_data_i = 32'b0000_0000_0000_0000_0000_0000_0000_0101;
-//     ram_addr_i = 16'b0000_0000_0000_0100;
-//     wea = 1'b0;
-//     ram_ce = 1'b1;
-//     ram_data_sel = 4'b1111;
-//     #20;
-//     $stop;
-//   end
-
-//   part3_bit_extension RAM_bit_extension (
-//       .clk(clk),
-//       .ram_data_i(ram_data_i),
-//       .ram_data_o(ram_data_o),
-//       .ram_addr_i(ram_addr_i),
-//       .ram_data_sel(ram_data_sel),
-//       .wea(wea),
-//       .ram_ce(ram_ce)
-//   );
-
-// endmodule
-
-
-module width8_addr14_tb ();
-  logic [7:0] ram_data_i;
-  logic [7:0] ram_data_o;
+  logic [31:0] ram_data_i;
+  logic [31:0] ram_data_o;
   logic [15:0] ram_addr_i;
   logic wea;
   logic ram_ce;
   logic clk;
+  logic [3:0] ram_data_sel;
 
   initial begin
     clk = 1'b1;
@@ -277,58 +188,148 @@ module width8_addr14_tb ();
   end
 
   initial begin
-    ram_data_i = 8'b0000_0001;
+    ram_data_i = 32'b0000_0000_0000_0000_0000_0000_0000_0001;
     ram_addr_i = 16'b0000_0000_0000_0000;
     wea = 1'b1;
     ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_0010;
-    ram_addr_i = 16'b0000_0000_0000_0001;
-    wea = 1'b1;
-    ram_ce = 1'b1;
-    #20;
-    ram_data_i = 8'b0000_0010;
-    ram_addr_i = 16'b0000_0000_0000_0001;
+    ram_data_sel = 4'b0001;
+    #20 ram_data_i = 32'b0000_0000_0000_0000_0000_0000_0000_0001;
+    ram_addr_i = 16'b0000_0000_0000_0000;
     wea = 1'b0;
     ram_ce = 1'b1;
+    ram_data_sel = 4'b0001;
     #20;
-    ram_data_i = 8'b0000_0011;
-    ram_addr_i = 16'b0100_0000_0000_0010;
+    ram_data_i = 32'b0000_0000_0000_0000_0000_0010_0000_0000;
+    ram_addr_i = 16'b0100_0000_0000_0001;
     wea = 1'b1;
     ram_ce = 1'b1;
+    ram_data_sel = 4'b0010;
     #20;
-    ram_data_i = 8'b0000_0011;
-    ram_addr_i = 16'b0100_0000_0000_0010;
+    ram_data_i = 32'b0000_0000_0000_0000_0000_0010_0000_0000;
+    ram_addr_i = 16'b0100_0000_0000_0001;
     wea = 1'b0;
     ram_ce = 1'b1;
+    ram_data_sel = 4'b0010;
     #20;
-    ram_data_i = 8'b0000_0100;
-    ram_addr_i = 16'b0100_0000_0000_0011;
+    ram_data_i = 32'b0000_0000_0000_0011_0000_0000_0000_0000;
+    ram_addr_i = 16'b1000_0000_0000_0010;
     wea = 1'b1;
     ram_ce = 1'b1;
+    ram_data_sel = 4'b0100;
     #20;
-    ram_data_i = 8'b0000_0100;
-    ram_addr_i = 16'b0100_0000_0000_0011;
+    ram_data_i = 32'b0000_0000_0000_0011_0000_0000_0000_0000;
+    ram_addr_i = 16'b1000_0000_0000_0010;
     wea = 1'b0;
     ram_ce = 1'b1;
+    ram_data_sel = 4'b0100;
     #20;
-    ram_data_i = 8'b0000_0101;
-    ram_addr_i = 16'b1000_0000_0000;
+    ram_data_i = 32'b0000_0100_0000_0000_0000_0000_0000_0000;
+    ram_addr_i = 16'b1100_0000_0000_0011;
     wea = 1'b1;
     ram_ce = 1'b1;
+    ram_data_sel = 4'b1000;
     #20;
-    ram_data_i = 8'b0000_0101;
-    ram_addr_i = 16'b1000_0000_0000;
+    ram_data_i = 32'b0000_0100_0000_0000_0000_0000_0000_0000;
+    ram_addr_i = 16'b1100_0000_0000_0011;
     wea = 1'b0;
     ram_ce = 1'b1;
+    ram_data_sel = 4'b1000;
+    #20;
+    ram_data_i = 32'b0000_0000_0000_0000_0000_0000_0000_0101;
+    ram_addr_i = 16'b0000_0000_0000_0100;
+    wea = 1'b1;
+    ram_ce = 1'b1;
+    ram_data_sel = 4'b1111;
+    #20;
+    ram_data_i = 32'b0000_0000_0000_0000_0000_0000_0000_0101;
+    ram_addr_i = 16'b0000_0000_0000_0100;
+    wea = 1'b0;
+    ram_ce = 1'b1;
+    ram_data_sel = 4'b1111;
+    #20;
     $stop;
   end
-  width8_addr14 RAM_word_extension1 (
-      .clka (clk),
-      .ena  (ram_ce),
-      .wea  (wea),
-      .addra(ram_addr_i[13:0]),
-      .dina (ram_data_i),
-      .douta(ram_data_o)
+
+  part3_bit_extension RAM_bit_extension (
+      .clk(clk),
+      .ram_data_i(ram_data_i),
+      .ram_data_o(ram_data_o),
+      .ram_addr_i(ram_addr_i),
+      .ram_data_sel(ram_data_sel),
+      .wea(wea),
+      .ram_ce(ram_ce)
   );
+
 endmodule
+
+
+// module width8_addr14_tb ();
+//   logic [7:0] ram_data_i;
+//   logic [7:0] ram_data_o;
+//   logic [15:0] ram_addr_i;
+//   logic wea;
+//   logic ram_ce;
+//   logic clk;
+
+//   initial begin
+//     clk = 1'b1;
+//     forever #10 clk = ~clk;
+//   end
+
+//   initial begin
+//     ram_data_i = 8'b0000_0001;
+//     ram_addr_i = 16'b0000_0000_0000_0000;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0010;
+//     ram_addr_i = 16'b0000_0000_0000_0001;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0010;
+//     ram_addr_i = 16'b0000_0000_0000_0001;
+//     wea = 1'b0;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0011;
+//     ram_addr_i = 16'b0100_0000_0000_0010;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0011;
+//     ram_addr_i = 16'b0100_0000_0000_0010;
+//     wea = 1'b0;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0100;
+//     ram_addr_i = 16'b0100_0000_0000_0011;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0100;
+//     ram_addr_i = 16'b0100_0000_0000_0011;
+//     wea = 1'b0;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0101;
+//     ram_addr_i = 16'b1000_0000_0000;
+//     wea = 1'b1;
+//     ram_ce = 1'b1;
+//     #20;
+//     ram_data_i = 8'b0000_0101;
+//     ram_addr_i = 16'b1000_0000_0000;
+//     wea = 1'b0;
+//     ram_ce = 1'b1;
+//     #20;
+//     $stop;
+//   end
+//   width8_addr14 RAM_word_extension1 (
+//       .clka (clk),
+//       .ena  (ram_ce),
+//       .wea  (wea),
+//       .addra(ram_addr_i[13:0]),
+//       .dina (ram_data_i),
+//       .douta(ram_data_o)
+//   );
+// endmodule

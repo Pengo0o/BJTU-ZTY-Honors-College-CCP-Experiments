@@ -84,36 +84,6 @@ module part3_bit_extension (
       4'b1000: begin
         ram_data_o = {{24{ram_data_o_4[7]}}, ram_data_o_4};
       end
-      4'b0011: begin
-        ram_data_o = {{16{ram_data_o_2[7]}}, ram_data_o_2, ram_data_o_1};
-      end
-      4'b0101: begin
-        ram_data_o = {{16{ram_data_o_3[7]}}, ram_data_o_3, ram_data_o_1};
-      end
-      4'b0110: begin
-        ram_data_o = {{16{ram_data_o_3[7]}}, ram_data_o_3, ram_data_o_2};
-      end
-      4'b1001: begin
-        ram_data_o = {{16{ram_data_o_4[7]}}, ram_data_o_4, ram_data_o_1};
-      end
-      4'b1010: begin
-        ram_data_o = {{16{ram_data_o_4[7]}}, ram_data_o_4, ram_data_o_2};
-      end
-      4'b1100: begin
-        ram_data_o = {{16{ram_data_o_4[7]}}, ram_data_o_4, ram_data_o_3};
-      end
-      4'b0111: begin
-        ram_data_o = {{8{ram_data_o_3[7]}}, ram_data_o_3, ram_data_o_2, ram_data_o_1};
-      end
-      4'b1011: begin
-        ram_data_o = {{8{ram_data_o_4[7]}}, ram_data_o_4, ram_data_o_2, ram_data_o_1};
-      end
-      4'b1101: begin
-        ram_data_o = {{8{ram_data_o_4[7]}}, ram_data_o_4, ram_data_o_3, ram_data_o_1};
-      end
-      4'b1110: begin
-        ram_data_o = {{8{ram_data_o_4[7]}}, ram_data_o_4, ram_data_o_3, ram_data_o_2};
-      end
       default: ram_data_o = 32'b0;
     endcase
   end
