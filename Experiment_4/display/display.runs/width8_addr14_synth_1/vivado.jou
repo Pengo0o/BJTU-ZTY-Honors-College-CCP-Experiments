@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat May 18 16:47:52 2024
+# Process ID: 25892
+# Current directory: E:/project/display_3/display_1/display/display.runs/width8_addr14_synth_1
+# Command line: vivado.exe -log width8_addr14.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source width8_addr14.tcl
+# Log file: E:/project/display_3/display_1/display/display.runs/width8_addr14_synth_1/width8_addr14.vds
+# Journal file: E:/project/display_3/display_1/display/display.runs/width8_addr14_synth_1\vivado.jou
+#-----------------------------------------------------------
+source width8_addr14.tcl -notrace

@@ -1,0 +1,2 @@
+width8_addr14.v,verilog,xil_defaultlib,../../../../display.srcs/sources_1/ip/width8_addr14/sim/width8_addr14.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

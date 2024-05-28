@@ -1,0 +1,24 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "E:/project/Experiment_4/display/display.srcs/sources_1/new/define.vh" --include "../../../../display.srcs/sources_1/new" --include "../../../../display.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../display.srcs/sources_1/ip/width8_addr14/sim/width8_addr14.v" \
+
+sv xil_defaultlib "E:/project/Experiment_4/display/display.srcs/sources_1/new/define.vh" --include "../../../../display.srcs/sources_1/new" --include "../../../../display.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../display.srcs/sources_1/new/display.sv" \
+"../../../../display.srcs/sources_1/new/seg7.sv" \
+"../../../../display.srcs/sources_1/new/top.sv" \
+"../../../../display.srcs/sources_1/new/part2_word_extension.sv" \
+"../../../../display.srcs/sources_1/new/part3_bit_extension.sv" \
+"../../../../display.srcs/sources_1/new/inst_dec.sv" \
+"../../../../display.srcs/sources_1/new/regfile.sv" \
+"../../../../display.srcs/sources_1/new/alu.sv" \
+"../../../../display.srcs/sources_1/new/mem.sv" \
+"../../../../display.srcs/sources_1/new/cpu.sv" \
+"../../../../display.srcs/sim_1/new/display_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

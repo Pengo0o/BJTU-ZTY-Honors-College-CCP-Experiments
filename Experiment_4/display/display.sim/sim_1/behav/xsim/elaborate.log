@@ -1,0 +1,30 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: E:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto f0314a36ec034ca0a035eb88dff9bc85 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_4 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot top_tb_behav xil_defaultlib.top_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 16 for port 'ram_addr_i' [E:/project/Experiment_4/display/display.srcs/sim_1/new/display_tb.sv:82]
+WARNING: [VRFC 10-3823] variable 'ram_data_i' might have multiple concurrent drivers [E:/project/Experiment_4/display/display.srcs/sim_1/new/display_tb.sv:81]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.inst_dec
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.mem
+Compiling module xil_defaultlib.regfile
+Compiling module xil_defaultlib.micro_cpu
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_output_stage(...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_4.blk_mem_gen_v8_4_4(C_FAMILY="kin...
+Compiling module xil_defaultlib.width8_addr14
+Compiling module xil_defaultlib.part2_word_extension
+Compiling module xil_defaultlib.part3_bit_extension
+Compiling module xil_defaultlib.seg7
+Compiling module xil_defaultlib.display
+Compiling module xil_defaultlib.top_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_tb_behav
