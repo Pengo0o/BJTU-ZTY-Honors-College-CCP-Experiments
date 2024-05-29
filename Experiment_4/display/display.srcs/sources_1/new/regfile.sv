@@ -12,10 +12,14 @@ module regfile (
     output logic [31:0] rdata_1,
     input logic re_2,
     input logic [4:0] raddr_2,
-    output logic [31:0] rdata_2
+    output logic [31:0] rdata_2,
+    input logic [31:0][31:0] rin,
+    output logic [31:0][31:0] rout
 );
   //寄存器
-  logic [31:0] regfile[0:31];
+  logic [31:0][31:0] regfile;
+  assign regfile = rin;
+  assign rout = regfile;
 
   always_ff @(posedge clk)
     if (rst == `RstEnable) begin

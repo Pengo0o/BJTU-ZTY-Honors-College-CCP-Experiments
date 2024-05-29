@@ -16,4 +16,4 @@ Block Memory Generator module top_tb.Block_RAM.RAM_word_extension4.RAM_word_exte
 Block Memory Generator module top_tb.Block_RAM.RAM_word_extension4.RAM_word_extension2.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
 Block Memory Generator module top_tb.Block_RAM.RAM_word_extension4.RAM_word_extension3.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
 Block Memory Generator module top_tb.Block_RAM.RAM_word_extension4.RAM_word_extension4.inst.native_mem_module.blk_mem_gen_v8_4_4_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
-$stop called at time : 600 ns : File "E:/project/Experiment_4/display/display.srcs/sim_1/new/display_tb.sv" Line 63
+$stop called at time : 800 ns : File "E:/project/Experiment_4/display/display.srcs/sim_1/new/display_tb.sv" Line 65

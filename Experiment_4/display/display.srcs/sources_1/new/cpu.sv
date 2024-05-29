@@ -33,6 +33,7 @@ module micro_cpu (
     output logic ram_ce_o
 
 );
+  logic [31:0][31:0] regs;
   logic [31:0] inst_o;
   logic [4:0] raddr_1;
   logic [4:0] raddr_2;
@@ -114,7 +115,9 @@ module micro_cpu (
       .rdata_1(rdata_1),
       .re_2(re_2),
       .raddr_2(raddr_2),
-      .rdata_2(rdata_2)
+      .rdata_2(rdata_2),
+      .rin(regs),
+      .rout(regs)
   );
 
 endmodule

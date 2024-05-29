@@ -27,7 +27,7 @@
 module top (
     input logic sysclk_p,
     input logic sysclk_n,
-    input logic [31:0] inst,
+    input logic [31:0] a,
     input logic key,
     // output logic [31:0] res,
     //output logic [1:0]led,
@@ -37,6 +37,8 @@ module top (
     output logic [6:0] seg4,
     output logic [7:0] ans
 );
+  logic [31:0] inst;
+  assign inst = a;
 
   logic clk;
   logic clk_10;

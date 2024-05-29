@@ -45,34 +45,47 @@ module alu (
   assign imms = {{16{inst[15]}}, inst[15:0]};
 
   always_comb begin
-    res = 32'h00000000;
+
 
     case (aluop)
       `EXE_AND: begin
         res = reg_1 & reg_2;
+        mem_op = `MEM_NOP;
+        mem_addr_o = `ZeroWord;
+        mem_data_o = `ZeroWord;
       end
       `EXE_OR: begin
         res = reg_1 | reg_2;
+        mem_op = `MEM_NOP;
+        mem_addr_o = `ZeroWord;
+        mem_data_o = `ZeroWord;
       end
       `EXE_ADD: begin
         res = reg_1 + reg_2;
+        mem_op = `MEM_NOP;
+        mem_addr_o = `ZeroWord;
+        mem_data_o = `ZeroWord;
       end
       `EXE_LB: begin
+        res = 32'h00000000;
         mem_op = `MEM_LB;
         mem_addr_o = reg_1 + imms;
         mem_data_o = `ZeroWord;
       end
       `EXE_LW: begin
+        res = 32'h00000000;
         mem_op = `MEM_LW;
         mem_addr_o = reg_1 + imms;
         mem_data_o = `ZeroWord;
       end
       `EXE_SB: begin
+        res = 32'h00000000;
         mem_op = `MEM_SB;
         mem_addr_o = reg_1 + imms;
         mem_data_o = reg_2;
       end
       `EXE_SW: begin
+        res = 32'h00000000;
         mem_op = `MEM_SW;
         mem_addr_o = reg_1 + imms;
         mem_data_o = reg_2;
