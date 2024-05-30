@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Thu May 30 00:33:26 2024
+| Date             : Thu May 30 10:56:34 2024
 | Host             : Peng0v0 running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -53,16 +53,16 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |     0.005 |        5 |       --- |             --- |
-| Slice Logic    |    <0.001 |     2874 |       --- |             --- |
-|   LUT as Logic |    <0.001 |     1104 |    203800 |            0.54 |
+| Slice Logic    |    <0.001 |     2936 |       --- |             --- |
+|   LUT as Logic |    <0.001 |     1166 |    203800 |            0.57 |
 |   CARRY4       |    <0.001 |       17 |     50950 |            0.03 |
 |   Register     |    <0.001 |     1065 |    407600 |            0.26 |
 |   F7/F8 Muxes  |    <0.001 |      352 |    203800 |            0.17 |
 |   Others       |     0.000 |      230 |       --- |             --- |
-| Signals        |     0.001 |     2433 |       --- |             --- |
+| Signals        |     0.001 |     2496 |       --- |             --- |
 | Block RAM      |    <0.001 |       64 |       445 |           14.38 |
 | MMCM           |     0.107 |        1 |        10 |           10.00 |
-| I/O            |     0.004 |       71 |       500 |           14.20 |
+| I/O            |     0.004 |       72 |       500 |           14.40 |
 | Static Power   |     0.163 |          |           |                 |
 | Total          |     0.281 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
@@ -148,7 +148,7 @@ Table of Contents
 +-----------------+-----------+
 | top             |     0.118 |
 |   CPU           |     0.004 |
-|     REGs        |     0.003 |
+|     REGs        |     0.004 |
 |   instance_name |     0.113 |
 |     inst        |     0.113 |
 +-----------------+-----------+

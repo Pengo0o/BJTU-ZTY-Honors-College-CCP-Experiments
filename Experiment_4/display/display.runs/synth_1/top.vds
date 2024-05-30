@@ -2,8 +2,8 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Thu May 30 00:30:50 2024
-# Process ID: 8664
+# Start of session at: Thu May 30 10:50:33 2024
+# Process ID: 23340
 # Current directory: E:/project/Experiment_4/display/display.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: E:/project/Experiment_4/display/display.runs/synth_1/top.vds
@@ -16,13 +16,13 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
 INFO: [Device 21-403] Loading part xc7k325tffg900-2
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 6172 
+INFO: Helper process launched with PID 13448 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1032.270 ; gain = 234.266
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1033.000 ; gain = 234.867
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'top' [E:/project/Experiment_4/display/display.srcs/sources_1/new/top.sv:27]
-INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [E:/project/Experiment_4/display/display.runs/synth_1/.Xil/Vivado-8664-Peng0v0/realtime/clk_wiz_0_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [E:/project/Experiment_4/display/display.runs/synth_1/.Xil/Vivado-8664-Peng0v0/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [E:/project/Experiment_4/display/display.runs/synth_1/.Xil/Vivado-23340-Peng0v0/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [E:/project/Experiment_4/display/display.runs/synth_1/.Xil/Vivado-23340-Peng0v0/realtime/clk_wiz_0_stub.v:5]
 INFO: [Synth 8-6157] synthesizing module 'micro_cpu' [E:/project/Experiment_4/display/display.srcs/sources_1/new/cpu.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'inst_dec' [E:/project/Experiment_4/display/display.srcs/sources_1/new/inst_dec.sv:3]
 INFO: [Synth 8-6155] done synthesizing module 'inst_dec' (2#1) [E:/project/Experiment_4/display/display.srcs/sources_1/new/inst_dec.sv:3]
@@ -37,11 +37,11 @@ INFO: [Synth 8-6155] done synthesizing module 'regfile' (5#1) [E:/project/Experi
 INFO: [Synth 8-6155] done synthesizing module 'micro_cpu' (6#1) [E:/project/Experiment_4/display/display.srcs/sources_1/new/cpu.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'part3_bit_extension' [E:/project/Experiment_4/display/display.srcs/sources_1/new/part3_bit_extension.sv:23]
 INFO: [Synth 8-6157] synthesizing module 'part2_word_extension' [E:/project/Experiment_4/display/display.srcs/sources_1/new/part2_word_extension.sv:23]
-INFO: [Synth 8-6157] synthesizing module 'width8_addr14' [E:/project/Experiment_4/display/display.runs/synth_1/.Xil/Vivado-8664-Peng0v0/realtime/width8_addr14_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'width8_addr14' (7#1) [E:/project/Experiment_4/display/display.runs/synth_1/.Xil/Vivado-8664-Peng0v0/realtime/width8_addr14_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'width8_addr14' [E:/project/Experiment_4/display/display.runs/synth_1/.Xil/Vivado-23340-Peng0v0/realtime/width8_addr14_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'width8_addr14' (7#1) [E:/project/Experiment_4/display/display.runs/synth_1/.Xil/Vivado-23340-Peng0v0/realtime/width8_addr14_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 'part2_word_extension' (8#1) [E:/project/Experiment_4/display/display.srcs/sources_1/new/part2_word_extension.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'part3_bit_extension' (9#1) [E:/project/Experiment_4/display/display.srcs/sources_1/new/part3_bit_extension.sv:23]
-WARNING: [Synth 8-689] width (32) of port connection 'ram_addr_i' does not match port width (16) of module 'part3_bit_extension' [E:/project/Experiment_4/display/display.srcs/sources_1/new/top.sv:90]
+WARNING: [Synth 8-689] width (32) of port connection 'ram_addr_i' does not match port width (16) of module 'part3_bit_extension' [E:/project/Experiment_4/display/display.srcs/sources_1/new/top.sv:91]
 INFO: [Synth 8-6157] synthesizing module 'display' [E:/project/Experiment_4/display/display.srcs/sources_1/new/display.sv:23]
 INFO: [Synth 8-226] default block is never used [E:/project/Experiment_4/display/display.srcs/sources_1/new/display.sv:44]
 INFO: [Synth 8-6157] synthesizing module 'seg7' [E:/project/Experiment_4/display/display.srcs/sources_1/new/seg7.sv:23]
@@ -66,7 +66,7 @@ WARNING: [Synth 8-3331] design alu has unconnected port inst[18]
 WARNING: [Synth 8-3331] design alu has unconnected port inst[17]
 WARNING: [Synth 8-3331] design alu has unconnected port inst[16]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1108.125 ; gain = 310.121
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 1108.926 ; gain = 310.793
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -79,12 +79,12 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1108.125 ; gain = 310.121
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1108.926 ; gain = 310.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1108.125 ; gain = 310.121
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 1108.926 ; gain = 310.793
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1108.125 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.064 . Memory (MB): peak = 1108.926 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -124,90 +124,90 @@ Finished Parsing XDC File [e:/project/Experiment_4/display/display.srcs/sources_
 Parsing XDC File [e:/project/Experiment_4/display/display.srcs/sources_1/ip/width8_addr14/width8_addr14/width8_addr14_in_context.xdc] for cell 'Block_RAM/RAM_word_extension4/RAM_word_extension4'
 Finished Parsing XDC File [e:/project/Experiment_4/display/display.srcs/sources_1/ip/width8_addr14/width8_addr14/width8_addr14_in_context.xdc] for cell 'Block_RAM/RAM_word_extension4/RAM_word_extension4'
 Parsing XDC File [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc]
-WARNING: [Vivado 12-584] No ports matched 'b[31]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:215]
-WARNING: [Vivado 12-584] No ports matched 'b[30]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:216]
-WARNING: [Vivado 12-584] No ports matched 'b[29]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:217]
-WARNING: [Vivado 12-584] No ports matched 'b[28]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:218]
-WARNING: [Vivado 12-584] No ports matched 'b[27]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:219]
-WARNING: [Vivado 12-584] No ports matched 'b[26]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:220]
-WARNING: [Vivado 12-584] No ports matched 'b[25]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:221]
-WARNING: [Vivado 12-584] No ports matched 'b[24]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:222]
-WARNING: [Vivado 12-584] No ports matched 'b[23]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:223]
-WARNING: [Vivado 12-584] No ports matched 'b[22]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:224]
-WARNING: [Vivado 12-584] No ports matched 'b[21]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:225]
-WARNING: [Vivado 12-584] No ports matched 'b[20]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:226]
-WARNING: [Vivado 12-584] No ports matched 'b[19]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:227]
-WARNING: [Vivado 12-584] No ports matched 'b[18]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:228]
-WARNING: [Vivado 12-584] No ports matched 'b[17]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:229]
-WARNING: [Vivado 12-584] No ports matched 'b[16]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:230]
-WARNING: [Vivado 12-584] No ports matched 'b[15]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:231]
-WARNING: [Vivado 12-584] No ports matched 'b[14]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:232]
-WARNING: [Vivado 12-584] No ports matched 'b[13]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:233]
-WARNING: [Vivado 12-584] No ports matched 'b[12]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:234]
-WARNING: [Vivado 12-584] No ports matched 'b[11]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:235]
-WARNING: [Vivado 12-584] No ports matched 'b[10]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:236]
-WARNING: [Vivado 12-584] No ports matched 'b[9]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:237]
-WARNING: [Vivado 12-584] No ports matched 'b[7]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:238]
-WARNING: [Vivado 12-584] No ports matched 'b[8]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:239]
-WARNING: [Vivado 12-584] No ports matched 'b[6]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:240]
-WARNING: [Vivado 12-584] No ports matched 'b[5]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:241]
-WARNING: [Vivado 12-584] No ports matched 'b[4]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:242]
-WARNING: [Vivado 12-584] No ports matched 'b[3]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:243]
-WARNING: [Vivado 12-584] No ports matched 'b[2]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:244]
-WARNING: [Vivado 12-584] No ports matched 'b[1]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:245]
-WARNING: [Vivado 12-584] No ports matched 'b[0]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:246]
-WARNING: [Vivado 12-584] No ports matched 'b[31]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:247]
-WARNING: [Vivado 12-584] No ports matched 'b[30]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:248]
-WARNING: [Vivado 12-584] No ports matched 'b[29]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:249]
-WARNING: [Vivado 12-584] No ports matched 'b[28]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:250]
-WARNING: [Vivado 12-584] No ports matched 'b[27]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:251]
-WARNING: [Vivado 12-584] No ports matched 'b[26]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:252]
-WARNING: [Vivado 12-584] No ports matched 'b[25]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:253]
-WARNING: [Vivado 12-584] No ports matched 'b[24]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:254]
-WARNING: [Vivado 12-584] No ports matched 'b[23]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:255]
-WARNING: [Vivado 12-584] No ports matched 'b[22]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:256]
-WARNING: [Vivado 12-584] No ports matched 'b[20]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:257]
-WARNING: [Vivado 12-584] No ports matched 'b[21]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:258]
-WARNING: [Vivado 12-584] No ports matched 'b[19]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:259]
-WARNING: [Vivado 12-584] No ports matched 'b[18]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:260]
-WARNING: [Vivado 12-584] No ports matched 'b[17]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:261]
-WARNING: [Vivado 12-584] No ports matched 'b[16]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:262]
-WARNING: [Vivado 12-584] No ports matched 'b[15]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:263]
-WARNING: [Vivado 12-584] No ports matched 'b[14]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:264]
-WARNING: [Vivado 12-584] No ports matched 'b[13]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:265]
-WARNING: [Vivado 12-584] No ports matched 'b[12]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:266]
-WARNING: [Vivado 12-584] No ports matched 'b[11]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:267]
-WARNING: [Vivado 12-584] No ports matched 'b[10]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:268]
-WARNING: [Vivado 12-584] No ports matched 'b[9]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:269]
-WARNING: [Vivado 12-584] No ports matched 'b[8]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:270]
-WARNING: [Vivado 12-584] No ports matched 'b[7]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:271]
-WARNING: [Vivado 12-584] No ports matched 'b[6]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:272]
-WARNING: [Vivado 12-584] No ports matched 'b[5]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:273]
-WARNING: [Vivado 12-584] No ports matched 'b[4]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:274]
-WARNING: [Vivado 12-584] No ports matched 'b[1]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:275]
-WARNING: [Vivado 12-584] No ports matched 'b[3]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:276]
-WARNING: [Vivado 12-584] No ports matched 'b[2]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:277]
-WARNING: [Vivado 12-584] No ports matched 'b[0]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:278]
+WARNING: [Vivado 12-584] No ports matched 'b[31]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:217]
+WARNING: [Vivado 12-584] No ports matched 'b[30]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:218]
+WARNING: [Vivado 12-584] No ports matched 'b[29]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:219]
+WARNING: [Vivado 12-584] No ports matched 'b[28]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:220]
+WARNING: [Vivado 12-584] No ports matched 'b[27]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:221]
+WARNING: [Vivado 12-584] No ports matched 'b[26]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:222]
+WARNING: [Vivado 12-584] No ports matched 'b[25]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:223]
+WARNING: [Vivado 12-584] No ports matched 'b[24]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:224]
+WARNING: [Vivado 12-584] No ports matched 'b[23]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:225]
+WARNING: [Vivado 12-584] No ports matched 'b[22]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:226]
+WARNING: [Vivado 12-584] No ports matched 'b[21]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:227]
+WARNING: [Vivado 12-584] No ports matched 'b[20]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:228]
+WARNING: [Vivado 12-584] No ports matched 'b[19]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:229]
+WARNING: [Vivado 12-584] No ports matched 'b[18]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:230]
+WARNING: [Vivado 12-584] No ports matched 'b[17]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:231]
+WARNING: [Vivado 12-584] No ports matched 'b[16]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:232]
+WARNING: [Vivado 12-584] No ports matched 'b[15]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:233]
+WARNING: [Vivado 12-584] No ports matched 'b[14]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:234]
+WARNING: [Vivado 12-584] No ports matched 'b[13]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:235]
+WARNING: [Vivado 12-584] No ports matched 'b[12]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:236]
+WARNING: [Vivado 12-584] No ports matched 'b[11]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:237]
+WARNING: [Vivado 12-584] No ports matched 'b[10]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:238]
+WARNING: [Vivado 12-584] No ports matched 'b[9]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:239]
+WARNING: [Vivado 12-584] No ports matched 'b[7]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:240]
+WARNING: [Vivado 12-584] No ports matched 'b[8]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:241]
+WARNING: [Vivado 12-584] No ports matched 'b[6]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:242]
+WARNING: [Vivado 12-584] No ports matched 'b[5]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:243]
+WARNING: [Vivado 12-584] No ports matched 'b[4]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:244]
+WARNING: [Vivado 12-584] No ports matched 'b[3]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:245]
+WARNING: [Vivado 12-584] No ports matched 'b[2]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:246]
+WARNING: [Vivado 12-584] No ports matched 'b[1]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:247]
+WARNING: [Vivado 12-584] No ports matched 'b[0]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:248]
+WARNING: [Vivado 12-584] No ports matched 'b[31]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:249]
+WARNING: [Vivado 12-584] No ports matched 'b[30]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:250]
+WARNING: [Vivado 12-584] No ports matched 'b[29]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:251]
+WARNING: [Vivado 12-584] No ports matched 'b[28]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:252]
+WARNING: [Vivado 12-584] No ports matched 'b[27]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:253]
+WARNING: [Vivado 12-584] No ports matched 'b[26]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:254]
+WARNING: [Vivado 12-584] No ports matched 'b[25]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:255]
+WARNING: [Vivado 12-584] No ports matched 'b[24]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:256]
+WARNING: [Vivado 12-584] No ports matched 'b[23]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:257]
+WARNING: [Vivado 12-584] No ports matched 'b[22]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:258]
+WARNING: [Vivado 12-584] No ports matched 'b[20]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:259]
+WARNING: [Vivado 12-584] No ports matched 'b[21]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:260]
+WARNING: [Vivado 12-584] No ports matched 'b[19]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:261]
+WARNING: [Vivado 12-584] No ports matched 'b[18]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:262]
+WARNING: [Vivado 12-584] No ports matched 'b[17]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:263]
+WARNING: [Vivado 12-584] No ports matched 'b[16]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:264]
+WARNING: [Vivado 12-584] No ports matched 'b[15]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:265]
+WARNING: [Vivado 12-584] No ports matched 'b[14]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:266]
+WARNING: [Vivado 12-584] No ports matched 'b[13]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:267]
+WARNING: [Vivado 12-584] No ports matched 'b[12]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:268]
+WARNING: [Vivado 12-584] No ports matched 'b[11]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:269]
+WARNING: [Vivado 12-584] No ports matched 'b[10]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:270]
+WARNING: [Vivado 12-584] No ports matched 'b[9]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:271]
+WARNING: [Vivado 12-584] No ports matched 'b[8]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:272]
+WARNING: [Vivado 12-584] No ports matched 'b[7]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:273]
+WARNING: [Vivado 12-584] No ports matched 'b[6]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:274]
+WARNING: [Vivado 12-584] No ports matched 'b[5]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:275]
+WARNING: [Vivado 12-584] No ports matched 'b[4]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:276]
+WARNING: [Vivado 12-584] No ports matched 'b[1]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:277]
+WARNING: [Vivado 12-584] No ports matched 'b[3]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:278]
+WARNING: [Vivado 12-584] No ports matched 'b[2]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:279]
+WARNING: [Vivado 12-584] No ports matched 'b[0]'. [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc:280]
 Finished Parsing XDC File [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc]
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/project/Experiment_4/display/display.srcs/constrs_1/new/top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1226.195 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1223.871 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1226.195 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1223.871 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1226.195 ; gain = 428.191
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1223.871 ; gain = 425.738
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7k325tffg900-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1226.195 ; gain = 428.191
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1223.871 ; gain = 425.738
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -234,12 +234,12 @@ Applied set_property DONT_TOUCH = true for Block_RAM/RAM_word_extension2/RAM_wor
 Applied set_property DONT_TOUCH = true for Block_RAM/RAM_word_extension3/RAM_word_extension4. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for Block_RAM/RAM_word_extension4/RAM_word_extension4. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 1226.195 ; gain = 428.191
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:22 . Memory (MB): peak = 1223.871 ; gain = 425.738
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "aluop" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "mem_op" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1226.195 ; gain = 428.191
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:23 . Memory (MB): peak = 1223.871 ; gain = 425.738
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -370,7 +370,6 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-INFO: [Synth 8-5544] ROM "CPU/DECODE/aluop" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[0]' (FDR) to 'DIS/ans_reg[6]'
 INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[1]' (FDS) to 'DIS/ans_reg[7]'
 INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[2]' (FDR) to 'DIS/ans_reg[6]'
@@ -378,7 +377,7 @@ INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[3]' (FDS) to 'DIS/ans_reg[7]'
 INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[4]' (FDR) to 'DIS/ans_reg[6]'
 INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[5]' (FDS) to 'DIS/ans_reg[7]'
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 1226.820 ; gain = 428.816
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:01:23 . Memory (MB): peak = 1344.129 ; gain = 545.996
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -390,13 +389,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 1226.820 ; gain = 428.816
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:01:36 . Memory (MB): peak = 1344.129 ; gain = 545.996
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:45 . Memory (MB): peak = 1569.586 ; gain = 771.582
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:02:10 . Memory (MB): peak = 1630.375 ; gain = 832.242
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -408,7 +407,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:46 . Memory (MB): peak = 1569.586 ; gain = 771.582
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:02:13 . Memory (MB): peak = 1630.375 ; gain = 832.242
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -432,13 +431,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1569.586 ; gain = 771.582
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:02:19 . Memory (MB): peak = 1630.375 ; gain = 832.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1569.586 ; gain = 771.582
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:02:19 . Memory (MB): peak = 1630.375 ; gain = 832.242
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -457,25 +456,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1569.586 ; gain = 771.582
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:02:19 . Memory (MB): peak = 1630.375 ; gain = 832.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1569.586 ; gain = 771.582
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:02:19 . Memory (MB): peak = 1630.375 ; gain = 832.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1569.586 ; gain = 771.582
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:02:19 . Memory (MB): peak = 1630.375 ; gain = 832.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1569.586 ; gain = 771.582
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:02:19 . Memory (MB): peak = 1630.375 ; gain = 832.242
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -512,15 +511,15 @@ Report Cell Usage:
 |17    |width8_addr14__30 |     1|
 |18    |CARRY4            |    17|
 |19    |LUT1              |     3|
-|20    |LUT2              |    63|
-|21    |LUT3              |    35|
+|20    |LUT2              |    89|
+|21    |LUT3              |    42|
 |22    |LUT4              |    51|
-|23    |LUT5              |   181|
-|24    |LUT6              |   653|
+|23    |LUT5              |   132|
+|24    |LUT6              |   731|
 |25    |MUXF7             |   256|
 |26    |MUXF8             |    96|
 |27    |FDRE              |  1027|
-|28    |IBUF              |    33|
+|28    |IBUF              |    34|
 |29    |OBUF              |    36|
 +------+------------------+------+
 
@@ -528,45 +527,45 @@ Report Instance Areas:
 +------+------------------------+--------------------------------+------+
 |      |Instance                |Module                          |Cells |
 +------+------------------------+--------------------------------+------+
-|1     |top                     |                                |  2582|
-|2     |  Block_RAM             |part3_bit_extension             |   263|
-|3     |    RAM_word_extension1 |part2_word_extension__xdcDup__1 |    45|
-|4     |    RAM_word_extension2 |part2_word_extension__xdcDup__2 |    75|
-|5     |    RAM_word_extension3 |part2_word_extension__xdcDup__3 |    59|
-|6     |    RAM_word_extension4 |part2_word_extension            |    84|
-|7     |  CPU                   |micro_cpu                       |  2177|
-|8     |    ALU                 |alu                             |    70|
-|9     |    REGs                |regfile                         |  2107|
-|10    |  DIS                   |display                         |    70|
+|1     |top                     |                                |  2645|
+|2     |  Block_RAM             |part3_bit_extension             |   231|
+|3     |    RAM_word_extension1 |part2_word_extension__xdcDup__1 |    41|
+|4     |    RAM_word_extension2 |part2_word_extension__xdcDup__2 |    62|
+|5     |    RAM_word_extension3 |part2_word_extension__xdcDup__3 |    49|
+|6     |    RAM_word_extension4 |part2_word_extension            |    79|
+|7     |  CPU                   |micro_cpu                       |  2269|
+|8     |    ALU                 |alu                             |   128|
+|9     |    REGs                |regfile                         |  2141|
+|10    |  DIS                   |display                         |    72|
 |11    |    SEG1                |seg7                            |     7|
 |12    |    SEG2                |seg7_0                          |     7|
 |13    |    SEG3                |seg7_1                          |     7|
 |14    |    SEG4                |seg7_2                          |     7|
 +------+------------------------+--------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1569.586 ; gain = 771.582
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:02:20 . Memory (MB): peak = 1630.375 ; gain = 832.242
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:47 . Memory (MB): peak = 1569.586 ; gain = 653.512
-Synthesis Optimization Complete : Time (s): cpu = 00:00:37 ; elapsed = 00:00:49 . Memory (MB): peak = 1569.586 ; gain = 771.582
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:40 ; elapsed = 00:02:14 . Memory (MB): peak = 1630.375 ; gain = 717.297
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:02:20 . Memory (MB): peak = 1630.375 ; gain = 832.242
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.027 . Memory (MB): peak = 1569.586 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 1630.375 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 369 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 WARNING: [Netlist 29-101] Netlist 'top' is not ideal for floorplanning, since the cellview 'regfile' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1569.586 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1630.375 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-49 Infos, 83 Warnings, 0 Critical Warnings and 0 Errors encountered.
+48 Infos, 83 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:55 . Memory (MB): peak = 1569.586 ; gain = 1098.793
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1569.586 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:49 ; elapsed = 00:02:32 . Memory (MB): peak = 1630.375 ; gain = 1159.879
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1630.375 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'E:/project/Experiment_4/display/display.runs/synth_1/top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu May 30 00:31:51 2024...
+INFO: [Common 17-206] Exiting Vivado at Thu May 30 10:53:19 2024...

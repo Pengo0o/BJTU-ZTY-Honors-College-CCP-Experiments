@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Thu May 30 00:32:48 2024
+| Date         : Thu May 30 10:55:07 2024
 | Host         : Peng0v0 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file top_control_sets_placed.rpt
 | Design       : top
@@ -58,12 +58,12 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |              69 |           29 |
+| No           | No                    | No                     |              69 |           38 |
 | No           | No                    | Yes                    |               0 |            0 |
-| No           | Yes                   | No                     |               4 |            3 |
+| No           | Yes                   | No                     |               4 |            2 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |               0 |            0 |
-| Yes          | Yes                   | No                     |             992 |          419 |
+| Yes          | Yes                   | No                     |             992 |          407 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
 
@@ -73,39 +73,39 @@ Table of Contents
 +------------------------------+----------------------------------+----------------------------------+------------------+----------------+
 |         Clock Signal         |           Enable Signal          |         Set/Reset Signal         | Slice Load Count | Bel Load Count |
 +------------------------------+----------------------------------+----------------------------------+------------------+----------------+
-|  instance_name/inst/clk_out1 |                                  | DIS/ans[6]_i_1_n_0               |                3 |              4 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[26][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |                9 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[11][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               12 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[10][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |                7 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[16][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               13 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[12][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |                9 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[13][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |                9 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[17][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |                9 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[14][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |                8 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[15][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               17 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[6][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               17 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[18][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               13 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[28][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               14 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[8][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               19 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[9][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               22 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[27][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               11 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[5][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               16 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[25][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               12 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[31][31]_i_2_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               24 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[7][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               16 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[30][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               17 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[20][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               10 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[21][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               15 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[2][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |                6 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[4][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               17 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[3][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               10 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[1][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               11 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[29][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               18 |             32 |
+|  instance_name/inst/clk_out1 |                                  | DIS/ans[6]_i_1_n_0               |                2 |              4 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[24][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               12 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[21][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               11 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[15][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               12 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[22][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               14 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[13][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               10 |             32 |
 |  instance_name/inst/clk_out1 | CPU/REGs/regfile[23][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               20 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[19][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               15 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[22][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               15 |             32 |
-|  instance_name/inst/clk_out1 | CPU/REGs/regfile[24][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |                8 |             32 |
-|  instance_name/inst/clk_out1 |                                  |                                  |               29 |             69 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[17][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |                9 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[25][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               11 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[26][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               12 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[18][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               10 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[2][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               13 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[16][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               10 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[11][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               10 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[1][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               12 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[12][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               14 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[3][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               12 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[27][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               10 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[28][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               13 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[29][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               17 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[30][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               17 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[10][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |                7 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[14][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               13 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[19][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               12 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[20][31]_i_1_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               12 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[5][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               15 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[4][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |                7 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[7][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               18 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[9][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               18 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[6][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               15 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[8][31]_i_1_n_0  | CPU/REGs/regfile[31][31]_i_1_n_0 |               16 |             32 |
+|  instance_name/inst/clk_out1 | CPU/REGs/regfile[31][31]_i_2_n_0 | CPU/REGs/regfile[31][31]_i_1_n_0 |               25 |             32 |
+|  instance_name/inst/clk_out1 |                                  |                                  |               38 |             69 |
 +------------------------------+----------------------------------+----------------------------------+------------------+----------------+
 
 

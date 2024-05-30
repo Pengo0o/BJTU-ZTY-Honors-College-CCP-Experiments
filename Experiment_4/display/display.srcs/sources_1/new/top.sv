@@ -28,7 +28,8 @@ module top (
     input logic sysclk_p,
     input logic sysclk_n,
     input logic [31:0] a,
-    input logic key,
+    input logic key_reg_0,
+    input logic key_erase_crosstalk,
     // output logic [31:0] res,
     //output logic [1:0]led,
     output logic [6:0] seg1,
@@ -38,7 +39,7 @@ module top (
     output logic [7:0] ans
 );
   logic [31:0] inst;
-  assign inst = a;
+  assign inst = a & {32{~key_erase_crosstalk}};
 
   logic clk;
   logic clk_10;
@@ -72,7 +73,7 @@ module top (
 
   micro_cpu CPU (
       .clk(clk),
-      .rst(~key),
+      .rst(~key_reg_0),
       .inst(inst),
       .res(res),
       .ram_data_i(ram_data_i),
