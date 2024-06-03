@@ -1,0 +1,886 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Jun  3 19:28:28 2024
+# Process ID: 22588
+# Current directory: E:/project/display/display.runs/synth_1
+# Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+# Log file: E:/project/display/display.runs/synth_1/top.vds
+# Journal file: E:/project/display/display.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: synth_design -top top -part xc7k325tffg900-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Device 21-403] Loading part xc7k325tffg900-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23636 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1032.910 ; gain = 233.090
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'rom_bit_extension' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'rom0_width8_addra16' [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/rom0_width8_addra16_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom0_width8_addra16' (2#1) [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/rom0_width8_addra16_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'rom1_width8_addra16' [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/rom1_width8_addra16_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom1_width8_addra16' (3#1) [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/rom1_width8_addra16_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'rom2_width8_addra16' [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/rom2_width8_addra16_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom2_width8_addra16' (4#1) [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/rom2_width8_addra16_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'rom3_width8_addra16' [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/rom3_width8_addra16_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom3_width8_addra16' (5#1) [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/rom3_width8_addra16_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'rom_bit_extension' (6#1) [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'micro_cpu' [E:/project/display/display.srcs/sources_1/new/micro_cpu.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'pc' [E:/project/display/display.srcs/sources_1/new/pc.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'pc' (7#1) [E:/project/display/display.srcs/sources_1/new/pc.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'inst_dec' [E:/project/display/display.srcs/sources_1/new/inst_dec.sv:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/project/display/display.srcs/sources_1/new/inst_dec.sv:100]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/project/display/display.srcs/sources_1/new/inst_dec.sv:81]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/project/display/display.srcs/sources_1/new/inst_dec.sv:196]
+INFO: [Synth 8-6155] done synthesizing module 'inst_dec' (8#1) [E:/project/display/display.srcs/sources_1/new/inst_dec.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [E:/project/display/display.srcs/sources_1/new/regfile.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (9#1) [E:/project/display/display.srcs/sources_1/new/regfile.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'alu' [E:/project/display/display.srcs/sources_1/new/alu.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (10#1) [E:/project/display/display.srcs/sources_1/new/alu.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'mem' [E:/project/display/display.srcs/sources_1/new/mem_access.sv:23]
+INFO: [Synth 8-226] default block is never used [E:/project/display/display.srcs/sources_1/new/mem_access.sv:53]
+INFO: [Synth 8-226] default block is never used [E:/project/display/display.srcs/sources_1/new/mem_access.sv:85]
+INFO: [Synth 8-6155] done synthesizing module 'mem' (11#1) [E:/project/display/display.srcs/sources_1/new/mem_access.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'micro_cpu' (12#1) [E:/project/display/display.srcs/sources_1/new/micro_cpu.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'bit_extension' [E:/project/display/display.srcs/sources_1/new/W_and_R.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'word_extension' [E:/project/display/display.srcs/sources_1/new/BRAM.sv:23]
+INFO: [Synth 8-226] default block is never used [E:/project/display/display.srcs/sources_1/new/BRAM.sv:37]
+INFO: [Synth 8-6157] synthesizing module 'width8_addra14' [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/width8_addra14_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'width8_addra14' (13#1) [E:/project/display/display.runs/synth_1/.Xil/Vivado-22588-Peng0v0/realtime/width8_addra14_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'word_extension' (14#1) [E:/project/display/display.srcs/sources_1/new/BRAM.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'bit_extension' (15#1) [E:/project/display/display.srcs/sources_1/new/W_and_R.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'dis_buffer' [E:/project/display/display.srcs/sources_1/new/dis_buffer.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'dis_buffer' (16#1) [E:/project/display/display.srcs/sources_1/new/dis_buffer.sv:22]
+INFO: [Synth 8-6157] synthesizing module 'display' [E:/project/display/display.srcs/sources_1/new/display.sv:21]
+INFO: [Synth 8-226] default block is never used [E:/project/display/display.srcs/sources_1/new/display.sv:44]
+INFO: [Synth 8-6157] synthesizing module 'seg7' [E:/project/display/display.srcs/sources_1/new/seg7.sv:22]
+INFO: [Synth 8-226] default block is never used [E:/project/display/display.srcs/sources_1/new/seg7.sv:28]
+INFO: [Synth 8-6155] done synthesizing module 'seg7' (17#1) [E:/project/display/display.srcs/sources_1/new/seg7.sv:22]
+INFO: [Synth 8-6155] done synthesizing module 'display' (18#1) [E:/project/display/display.srcs/sources_1/new/display.sv:21]
+INFO: [Synth 8-6155] done synthesizing module 'top' (19#1) [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[31]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[30]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[29]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[28]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[27]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[26]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[25]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[24]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[23]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[22]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[21]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[20]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[19]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[18]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[17]
+WARNING: [Synth 8-3331] design alu has unconnected port inst[16]
+WARNING: [Synth 8-3331] design rom_bit_extension has unconnected port addra[1]
+WARNING: [Synth 8-3331] design rom_bit_extension has unconnected port addra[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1109.562 ; gain = 309.742
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[31] with 1st driver pin 'a[31]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[31] with 2nd driver pin 'ROM/ROM0/douta[7]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:38]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[30] with 1st driver pin 'a[30]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[30] with 2nd driver pin 'ROM/ROM0/douta[6]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:38]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[29] with 1st driver pin 'a[29]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[29] with 2nd driver pin 'ROM/ROM0/douta[5]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:38]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[28] with 1st driver pin 'a[28]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[28] with 2nd driver pin 'ROM/ROM0/douta[4]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:38]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[27] with 1st driver pin 'a[27]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[27] with 2nd driver pin 'ROM/ROM0/douta[3]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:38]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[26] with 1st driver pin 'a[26]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[26] with 2nd driver pin 'ROM/ROM0/douta[2]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:38]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[25] with 1st driver pin 'a[25]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[25] with 2nd driver pin 'ROM/ROM0/douta[1]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:38]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[24] with 1st driver pin 'a[24]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[24] with 2nd driver pin 'ROM/ROM0/douta[0]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:38]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[23] with 1st driver pin 'a[23]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[23] with 2nd driver pin 'ROM/ROM1/douta[7]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:43]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[22] with 1st driver pin 'a[22]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[22] with 2nd driver pin 'ROM/ROM1/douta[6]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:43]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[21] with 1st driver pin 'a[21]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[21] with 2nd driver pin 'ROM/ROM1/douta[5]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:43]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[20] with 1st driver pin 'a[20]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[20] with 2nd driver pin 'ROM/ROM1/douta[4]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:43]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[19] with 1st driver pin 'a[19]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[19] with 2nd driver pin 'ROM/ROM1/douta[3]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:43]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[18] with 1st driver pin 'a[18]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[18] with 2nd driver pin 'ROM/ROM1/douta[2]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:43]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[17] with 1st driver pin 'a[17]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[17] with 2nd driver pin 'ROM/ROM1/douta[1]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:43]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[16] with 1st driver pin 'a[16]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[16] with 2nd driver pin 'ROM/ROM1/douta[0]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:43]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[15] with 1st driver pin 'a[15]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[15] with 2nd driver pin 'ROM/ROM2/douta[7]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[14] with 1st driver pin 'a[14]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[14] with 2nd driver pin 'ROM/ROM2/douta[6]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[13] with 1st driver pin 'a[13]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[13] with 2nd driver pin 'ROM/ROM2/douta[5]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[12] with 1st driver pin 'a[12]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[12] with 2nd driver pin 'ROM/ROM2/douta[4]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[11] with 1st driver pin 'a[11]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[11] with 2nd driver pin 'ROM/ROM2/douta[3]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[10] with 1st driver pin 'a[10]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[10] with 2nd driver pin 'ROM/ROM2/douta[2]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[9] with 1st driver pin 'a[9]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[9] with 2nd driver pin 'ROM/ROM2/douta[1]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[8] with 1st driver pin 'a[8]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[8] with 2nd driver pin 'ROM/ROM2/douta[0]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[7] with 1st driver pin 'a[7]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[7] with 2nd driver pin 'ROM/ROM3/douta[7]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[6] with 1st driver pin 'a[6]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[6] with 2nd driver pin 'ROM/ROM3/douta[6]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[5] with 1st driver pin 'a[5]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[5] with 2nd driver pin 'ROM/ROM3/douta[5]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[4] with 1st driver pin 'a[4]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[4] with 2nd driver pin 'ROM/ROM3/douta[4]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[3] with 1st driver pin 'a[3]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[3] with 2nd driver pin 'ROM/ROM3/douta[3]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[2] with 1st driver pin 'a[2]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[2] with 2nd driver pin 'ROM/ROM3/douta[2]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[1] with 1st driver pin 'a[1]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[1] with 2nd driver pin 'ROM/ROM3/douta[1]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[0] with 1st driver pin 'a[0]' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a[0] with 2nd driver pin 'ROM/ROM3/douta[0]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|       32|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1109.562 ; gain = 309.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1109.562 ; gain = 309.742
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.099 . Memory (MB): peak = 1109.562 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'instance_name'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'instance_name'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extensionl/RAM_word_extensionl'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extensionl/RAM_word_extensionl'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extensionl/RAM_word_extension2'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extensionl/RAM_word_extension2'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extensionl/RAM_word_extension3'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extensionl/RAM_word_extension3'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extensionl/RAM_word_extension4'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extensionl/RAM_word_extension4'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension2/RAM_word_extensionl'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension2/RAM_word_extensionl'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension2/RAM_word_extension2'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension2/RAM_word_extension2'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension2/RAM_word_extension3'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension2/RAM_word_extension3'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension2/RAM_word_extension4'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension2/RAM_word_extension4'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension3/RAM_word_extensionl'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension3/RAM_word_extensionl'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension3/RAM_word_extension2'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension3/RAM_word_extension2'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension3/RAM_word_extension3'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension3/RAM_word_extension3'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension3/RAM_word_extension4'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension3/RAM_word_extension4'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension4/RAM_word_extensionl'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension4/RAM_word_extensionl'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension4/RAM_word_extension2'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension4/RAM_word_extension2'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension4/RAM_word_extension3'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension4/RAM_word_extension3'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension4/RAM_word_extension4'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14/width8_addra14_in_context.xdc] for cell 'bit_ext/RAM_bit_extension4/RAM_word_extension4'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/rom0_width8_addra16/rom0_width8_addra16/rom0_width8_addra16_in_context.xdc] for cell 'ROM/ROM0'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/rom0_width8_addra16/rom0_width8_addra16/rom0_width8_addra16_in_context.xdc] for cell 'ROM/ROM0'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16/rom1_width8_addra16_in_context.xdc] for cell 'ROM/ROM1'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16/rom1_width8_addra16_in_context.xdc] for cell 'ROM/ROM1'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16/rom2_width8_addra16_in_context.xdc] for cell 'ROM/ROM2'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16/rom2_width8_addra16_in_context.xdc] for cell 'ROM/ROM2'
+Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16/rom3_width8_addra16_in_context.xdc] for cell 'ROM/ROM3'
+Finished Parsing XDC File [e:/project/display/display.srcs/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16/rom3_width8_addra16_in_context.xdc] for cell 'ROM/ROM3'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1215.113 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.343 . Memory (MB): peak = 1215.113 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 1215.113 ; gain = 415.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 1215.113 ; gain = 415.293
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sysclk_n. (constraint file  e:/project/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sysclk_n. (constraint file  e:/project/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property IO_BUFFER_TYPE = NONE for sysclk_p. (constraint file  e:/project/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 6).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sysclk_p. (constraint file  e:/project/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 7).
+Applied set_property DONT_TOUCH = true for instance_name. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extensionl/RAM_word_extension2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension2/RAM_word_extension2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension3/RAM_word_extension2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension4/RAM_word_extension2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extensionl/RAM_word_extension3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension2/RAM_word_extension3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension3/RAM_word_extension3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension4/RAM_word_extension3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extensionl/RAM_word_extension4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension2/RAM_word_extension4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension3/RAM_word_extension4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension4/RAM_word_extension4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extensionl/RAM_word_extensionl. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension2/RAM_word_extensionl. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension3/RAM_word_extensionl. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bit_ext/RAM_bit_extension4/RAM_word_extensionl. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ROM/ROM0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ROM/ROM1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ROM/ROM2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for ROM/ROM3. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:22 . Memory (MB): peak = 1215.113 ; gain = 415.293
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "aluop" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "mem_op" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:23 . Memory (MB): peak = 1215.113 ; gain = 415.293
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 33    
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 17    
+	   8 Input     32 Bit        Muxes := 3     
+	   5 Input     32 Bit        Muxes := 3     
+	   6 Input     32 Bit        Muxes := 1     
+	   4 Input      8 Bit        Muxes := 4     
+	  13 Input      5 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 5     
+	   4 Input      4 Bit        Muxes := 5     
+	   2 Input      3 Bit        Muxes := 2     
+	   8 Input      3 Bit        Muxes := 1     
+	  13 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 36    
+	   5 Input      1 Bit        Muxes := 3     
+	  13 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module pc 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module inst_dec 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Muxes : 
+	   3 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 8     
+	  13 Input      5 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	  13 Input      2 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	  13 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 31    
+	   3 Input      1 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+Module mem 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   5 Input     32 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 2     
+Module word_extension__xdcDup__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+Module word_extension__xdcDup__2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+Module word_extension__xdcDup__3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+Module word_extension 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      8 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 1     
+Module bit_extension 
+Detailed RTL Component Info : 
++---Muxes : 
+	   6 Input     32 Bit        Muxes := 1     
+Module dis_buffer 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module display 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[0]' (FDR) to 'DIS/ans_reg[6]'
+INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[1]' (FDS) to 'DIS/ans_reg[7]'
+INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[2]' (FDR) to 'DIS/ans_reg[6]'
+INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[3]' (FDS) to 'DIS/ans_reg[7]'
+INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[4]' (FDR) to 'DIS/ans_reg[6]'
+INFO: [Synth 8-3886] merging instance 'DIS/ans_reg[5]' (FDS) to 'DIS/ans_reg[7]'
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:01:24 . Memory (MB): peak = 1287.223 ; gain = 487.402
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:39 ; elapsed = 00:01:36 . Memory (MB): peak = 1287.223 ; gain = 487.402
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:02:24 . Memory (MB): peak = 1711.129 ; gain = 911.309
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+Found timing loop:
+     0: i_1486/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1486/I0 (LUT2)
+     2: i_1486/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1486"
+Found timing loop:
+     0: i_1487/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1487/I0 (LUT2)
+     2: i_1487/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1487"
+Found timing loop:
+     0: i_1488/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1488/I0 (LUT2)
+     2: i_1488/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1488"
+Found timing loop:
+     0: i_1489/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1489/I0 (LUT2)
+     2: i_1489/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1489"
+Found timing loop:
+     0: i_1490/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1490/I0 (LUT2)
+     2: i_1490/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1490"
+Found timing loop:
+     0: i_1491/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1491/I0 (LUT2)
+     2: i_1491/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1491"
+Found timing loop:
+     0: i_1492/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1492/I0 (LUT2)
+     2: i_1492/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1492"
+Found timing loop:
+     0: i_1493/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1493/I0 (LUT2)
+     2: i_1493/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1493"
+Found timing loop:
+     0: i_1494/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1494/I0 (LUT2)
+     2: i_1494/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1494"
+Found timing loop:
+     0: i_1495/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1495/I0 (LUT2)
+     2: i_1495/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1495"
+Found timing loop:
+     0: i_1496/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1496/I0 (LUT2)
+     2: i_1496/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1496"
+Found timing loop:
+     0: i_1497/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1497/I0 (LUT2)
+     2: i_1497/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1497"
+Found timing loop:
+     0: i_1498/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1498/I0 (LUT2)
+     2: i_1498/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1498"
+Found timing loop:
+     0: i_1499/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1499/I0 (LUT2)
+     2: i_1499/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1499"
+Found timing loop:
+     0: i_1500/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1500/I0 (LUT2)
+     2: i_1500/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1500"
+Found timing loop:
+     0: i_1517/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1517/I0 (LUT2)
+     2: i_1517/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1517"
+Found timing loop:
+     0: i_1516/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1516/I0 (LUT2)
+     2: i_1516/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1516"
+Found timing loop:
+     0: i_1515/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1515/I0 (LUT2)
+     2: i_1515/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1515"
+Found timing loop:
+     0: i_1514/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1514/I0 (LUT2)
+     2: i_1514/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1514"
+Found timing loop:
+     0: i_1512/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1512/I0 (LUT2)
+     2: i_1512/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1512"
+Found timing loop:
+     0: i_1513/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1513/I0 (LUT2)
+     2: i_1513/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1513"
+Found timing loop:
+     0: i_1507/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1507/I0 (LUT2)
+     2: i_1507/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1507"
+Found timing loop:
+     0: i_1508/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1508/I0 (LUT2)
+     2: i_1508/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1508"
+Found timing loop:
+     0: i_1509/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1509/I0 (LUT2)
+     2: i_1509/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1509"
+Found timing loop:
+     0: i_1510/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1510/I0 (LUT2)
+     2: i_1510/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1510"
+Found timing loop:
+     0: i_1511/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1511/I0 (LUT2)
+     2: i_1511/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1511"
+Found timing loop:
+     0: i_1501/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1501/I0 (LUT2)
+     2: i_1501/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1501"
+Found timing loop:
+     0: i_1504/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1504/I0 (LUT2)
+     2: i_1504/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1504"
+Found timing loop:
+     0: i_1502/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1502/I0 (LUT2)
+     2: i_1502/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1502"
+Found timing loop:
+     0: i_1503/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1503/I0 (LUT2)
+     2: i_1503/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1503"
+Found timing loop:
+     0: i_1505/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1505/I0 (LUT2)
+     2: i_1505/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1505"
+Found timing loop:
+     0: i_1506/O (LUT2)
+      [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+     1: i_1506/I0 (LUT2)
+     2: i_1506/O (LUT2)
+CRITICAL WARNING: [Synth 8-295] found timing loop. [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+Inferred a: "set_disable_timing -from I0 -to O i_1506"
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:00 ; elapsed = 00:02:27 . Memory (MB): peak = 1711.129 ; gain = 911.309
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:02 ; elapsed = 00:02:34 . Memory (MB): peak = 1711.129 ; gain = 911.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:02 ; elapsed = 00:02:34 . Memory (MB): peak = 1711.129 ; gain = 911.309
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[20] with 1st driver pin 'a_IBUF[20]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[20] with 2nd driver pin 'rout[31][31]_i_20/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[20] with 3rd driver pin 'ROM/ROM1/douta[4]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:43]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[14] with 1st driver pin 'a_IBUF[14]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[14] with 2nd driver pin 'branch_addr_carry__2_i_6/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[14] with 3rd driver pin 'ROM/ROM2/douta[6]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[13] with 1st driver pin 'a_IBUF[13]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[13] with 2nd driver pin 'branch_addr_carry__2_i_7/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[13] with 3rd driver pin 'ROM/ROM2/douta[5]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[12] with 1st driver pin 'a_IBUF[12]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[12] with 2nd driver pin 'branch_addr_carry__2_i_8/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[12] with 3rd driver pin 'ROM/ROM2/douta[4]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[11] with 1st driver pin 'a_IBUF[11]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[11] with 2nd driver pin 'branch_addr_carry__2_i_9/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[11] with 3rd driver pin 'ROM/ROM2/douta[3]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[10] with 1st driver pin 'a_IBUF[10]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[10] with 2nd driver pin 'branch_addr_carry__1_i_6/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[10] with 3rd driver pin 'ROM/ROM2/douta[2]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[9] with 1st driver pin 'a_IBUF[9]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[9] with 2nd driver pin 'branch_addr_carry__1_i_7/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[9] with 3rd driver pin 'ROM/ROM2/douta[1]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[8] with 1st driver pin 'a_IBUF[8]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[8] with 2nd driver pin 'branch_addr_carry__1_i_8/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[8] with 3rd driver pin 'ROM/ROM2/douta[0]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:48]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[7] with 1st driver pin 'a_IBUF[7]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[7] with 2nd driver pin 'branch_addr_carry__1_i_9/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[7] with 3rd driver pin 'ROM/ROM3/douta[7]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[6] with 1st driver pin 'a_IBUF[6]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[6] with 2nd driver pin 'branch_addr_carry__0_i_6/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[6] with 3rd driver pin 'ROM/ROM3/douta[6]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[5] with 1st driver pin 'a_IBUF[5]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[5] with 2nd driver pin 'branch_addr_carry__0_i_7/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[5] with 3rd driver pin 'ROM/ROM3/douta[5]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[4] with 1st driver pin 'a_IBUF[4]_inst/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[4] with 2nd driver pin 'branch_addr_carry__0_i_8/O' [E:/project/display/display.srcs/sources_1/new/top.sv:24]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin a_IBUF[4] with 3rd driver pin 'ROM/ROM3/douta[4]' [E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv:53]
+INFO: [Common 17-14] Message 'Synth 8-6859' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|       32|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:02 ; elapsed = 00:02:34 . Memory (MB): peak = 1711.129 ; gain = 911.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:02 ; elapsed = 00:02:34 . Memory (MB): peak = 1711.129 ; gain = 911.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:02 ; elapsed = 00:02:34 . Memory (MB): peak = 1711.129 ; gain = 911.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:02 ; elapsed = 00:02:34 . Memory (MB): peak = 1711.129 ; gain = 911.309
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------+----------+
+|      |BlackBox name       |Instances |
++------+--------------------+----------+
+|1     |clk_wiz_0           |         1|
+|2     |rom0_width8_addra16 |         1|
+|3     |rom1_width8_addra16 |         1|
+|4     |rom2_width8_addra16 |         1|
+|5     |rom3_width8_addra16 |         1|
+|6     |width8_addra14      |        16|
++------+--------------------+----------+
+
+Report Cell Usage: 
++------+--------------------+------+
+|      |Cell                |Count |
++------+--------------------+------+
+|1     |clk_wiz_0           |     1|
+|2     |rom0_width8_addra16 |     1|
+|3     |rom1_width8_addra16 |     1|
+|4     |rom2_width8_addra16 |     1|
+|5     |rom3_width8_addra16 |     1|
+|6     |width8_addra14      |     1|
+|7     |width8_addra14__16  |     1|
+|8     |width8_addra14__17  |     1|
+|9     |width8_addra14__18  |     1|
+|10    |width8_addra14__19  |     1|
+|11    |width8_addra14__20  |     1|
+|12    |width8_addra14__21  |     1|
+|13    |width8_addra14__22  |     1|
+|14    |width8_addra14__23  |     1|
+|15    |width8_addra14__24  |     1|
+|16    |width8_addra14__25  |     1|
+|17    |width8_addra14__26  |     1|
+|18    |width8_addra14__27  |     1|
+|19    |width8_addra14__28  |     1|
+|20    |width8_addra14__29  |     1|
+|21    |width8_addra14__30  |     1|
+|22    |CARRY4              |    41|
+|23    |LUT1                |     4|
+|24    |LUT2                |   118|
+|25    |LUT3                |    27|
+|26    |LUT4                |    66|
+|27    |LUT5                |   120|
+|28    |LUT6                |   831|
+|29    |MUXF7               |   227|
+|30    |MUXF8               |    61|
+|31    |FDRE                |  1080|
+|32    |IBUF                |    34|
+|33    |OBUF                |    36|
++------+--------------------+------+
+
+Report Instance Areas: 
++------+-----------------------+--------------------------+------+
+|      |Instance               |Module                    |Cells |
++------+-----------------------+--------------------------+------+
+|1     |top                    |                          |  2808|
+|2     |  DIS                  |display                   |    70|
+|3     |    SEG1               |seg7                      |     7|
+|4     |    SEG2               |seg7_0                    |     7|
+|5     |    SEG3               |seg7_1                    |     7|
+|6     |    SEG4               |seg7_2                    |     7|
+|7     |  DIS_BUF              |dis_buffer                |    62|
+|8     |  ROM                  |rom_bit_extension         |    32|
+|9     |  bit_ext              |bit_extension             |   205|
+|10    |    RAM_bit_extension2 |word_extension__xdcDup__2 |    55|
+|11    |    RAM_bit_extension3 |word_extension__xdcDup__3 |    52|
+|12    |    RAM_bit_extension4 |word_extension            |    55|
+|13    |    RAM_bit_extensionl |word_extension__xdcDup__1 |    43|
+|14    |  cpu                  |micro_cpu                 |  2366|
+|15    |    ALU                |alu                       |   107|
+|16    |    DECODE             |inst_dec                  |   104|
+|17    |    PC                 |pc                        |    75|
+|18    |    REGS               |regfile                   |  2080|
++------+-----------------------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:02 ; elapsed = 00:02:34 . Memory (MB): peak = 1711.129 ; gain = 911.309
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 128 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:55 ; elapsed = 00:02:29 . Memory (MB): peak = 1711.129 ; gain = 805.758
+Synthesis Optimization Complete : Time (s): cpu = 00:01:02 ; elapsed = 00:02:34 . Memory (MB): peak = 1711.129 ; gain = 911.309
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.062 . Memory (MB): peak = 1711.129 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 329 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1711.129 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+66 Infos, 18 Warnings, 132 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:07 ; elapsed = 00:02:47 . Memory (MB): peak = 1711.129 ; gain = 1240.473
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1711.129 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'E:/project/display/display.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun  3 19:31:27 2024...
