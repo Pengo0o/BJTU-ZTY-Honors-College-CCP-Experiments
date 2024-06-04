@@ -24,9 +24,9 @@
 module top (
     input logic sysclk_p,
     input logic sysclk_n,
-    input logic [31:0] a,
-    input logic key_erase_crosstalk,
-    input logic key_reg_0,
+    // input logic [31:0] a,
+    // input logic key_erase_crosstalk,
+    input logic key,
     output logic [6:0] seg1,
     output logic [6:0] seg2,
     output logic [6:0] seg3,
@@ -35,7 +35,7 @@ module top (
 );
 
   logic [31:0] inst;
-  assign inst = a & {32{~key_erase_crosstalk}};
+  //   assign inst = a & {32{~key_erase_crosstalk}};
 
   logic [31:0] res;
   logic [31:0] dis_res;
@@ -50,7 +50,7 @@ module top (
   logic clk;
   logic clk_10;
   logic locked;
-  assign inst = a;
+  //   assign inst = a;
   clk_wiz_0 instance_name (
       // Clock out ports
       .clk_out1 (clk),       // output clk_out1
@@ -63,7 +63,6 @@ module top (
       .clk_in1_n(sysclk_n)   // input clk_in1_n
   );
 
-  assign inst = a;
   rom_bit_extension ROM (
       .clk(clk),
       .addra(rom_addr[17:0]),

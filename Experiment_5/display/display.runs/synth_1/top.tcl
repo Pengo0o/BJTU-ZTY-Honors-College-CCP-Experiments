@@ -23,53 +23,54 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir E:/project/display/display.cache/wt [current_project]
-set_property parent.project_path E:/project/display/display.xpr [current_project]
+set_property webtalk.parent_dir E:/project/Experiment_5/display/display.cache/wt [current_project]
+set_property parent.project_path E:/project/Experiment_5/display/display.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
+set_property ip_output_repo e:/project/Experiment_5/display/display.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-add_files E:/project/display/display.srcs/sources_1/COE/Lab_4_1_0.coe
-add_files E:/project/display/display.srcs/sources_1/COE/Lab_4_1_1.coe
-add_files E:/project/display/display.srcs/sources_1/COE/Lab_4_1_2.coe
-add_files E:/project/display/display.srcs/sources_1/COE/Lab_4_1_3.coe
-read_verilog E:/project/display/display.srcs/sources_1/new/define.svh
-set_property file_type "Verilog Header" [get_files E:/project/display/display.srcs/sources_1/new/define.svh]
-set_property is_global_include true [get_files E:/project/display/display.srcs/sources_1/new/define.svh]
+add_files E:/project/Experiment_5/display/display.srcs/sources_1/COE/Lab_4_1_0.coe
+add_files E:/project/Experiment_5/display/display.srcs/sources_1/COE/Lab_4_1_1.coe
+add_files E:/project/Experiment_5/display/display.srcs/sources_1/COE/Lab_4_1_2.coe
+add_files E:/project/Experiment_5/display/display.srcs/sources_1/COE/Lab_4_1_3.coe
+read_verilog E:/project/Experiment_5/display/display.srcs/sources_1/new/define.svh
+set_property file_type "Verilog Header" [get_files E:/project/Experiment_5/display/display.srcs/sources_1/new/define.svh]
+set_property is_global_include true [get_files E:/project/Experiment_5/display/display.srcs/sources_1/new/define.svh]
 read_verilog -library xil_defaultlib -sv {
-  E:/project/display/display.srcs/sources_1/new/BRAM.sv
-  E:/project/display/display.srcs/sources_1/new/W_and_R.sv
-  E:/project/display/display.srcs/sources_1/new/alu.sv
-  E:/project/display/display.srcs/sources_1/new/dis_buffer.sv
-  E:/project/display/display.srcs/sources_1/new/display.sv
-  E:/project/display/display.srcs/sources_1/new/inst_dec.sv
-  E:/project/display/display.srcs/sources_1/new/mem_access.sv
-  E:/project/display/display.srcs/sources_1/new/micro_cpu.sv
-  E:/project/display/display.srcs/sources_1/new/pc.sv
-  E:/project/display/display.srcs/sources_1/new/regfile.sv
-  E:/project/display/display.srcs/sources_1/new/rom_bit_extension.sv
-  E:/project/display/display.srcs/sources_1/new/seg7.sv
-  E:/project/display/display.srcs/sources_1/new/top.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/BRAM.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/W_and_R.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/alu.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/dis_buffer.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/display.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/inst_dec.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/mem_access.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/micro_cpu.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/pc.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/regfile.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/rom_bit_extension.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/seg7.sv
+  E:/project/Experiment_5/display/display.srcs/sources_1/new/top.sv
 }
-read_ip -quiet E:/project/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
-set_property used_in_implementation false [get_files -all e:/project/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
-set_property used_in_implementation false [get_files -all e:/project/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
-set_property used_in_implementation false [get_files -all e:/project/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]
+read_ip -quiet E:/project/Experiment_5/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
+set_property used_in_implementation false [get_files -all e:/project/Experiment_5/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
+set_property used_in_implementation false [get_files -all e:/project/Experiment_5/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
+set_property used_in_implementation false [get_files -all e:/project/Experiment_5/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_ooc.xdc]
 
-read_ip -quiet E:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14.xci
-set_property used_in_implementation false [get_files -all e:/project/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14_ooc.xdc]
+read_ip -quiet E:/project/Experiment_5/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14.xci
+set_property used_in_implementation false [get_files -all e:/project/Experiment_5/display/display.srcs/sources_1/ip/width8_addra14/width8_addra14_ooc.xdc]
 
-read_ip -quiet E:/project/display/display.srcs/sources_1/ip/rom0_width8_addra16/rom0_width8_addra16.xci
-set_property used_in_implementation false [get_files -all e:/project/display/display.srcs/sources_1/ip/rom0_width8_addra16/rom0_width8_addra16_ooc.xdc]
+read_ip -quiet E:/project/Experiment_5/display/display.srcs/sources_1/ip/rom0_width8_addra16/rom0_width8_addra16.xci
+set_property used_in_implementation false [get_files -all e:/project/Experiment_5/display/display.srcs/sources_1/ip/rom0_width8_addra16/rom0_width8_addra16_ooc.xdc]
 
-read_ip -quiet E:/project/display/display.srcs/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16.xci
-set_property used_in_implementation false [get_files -all e:/project/display/display.srcs/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16_ooc.xdc]
+read_ip -quiet E:/project/Experiment_5/display/display.srcs/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16.xci
+set_property used_in_implementation false [get_files -all e:/project/Experiment_5/display/display.srcs/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16_ooc.xdc]
 
-read_ip -quiet E:/project/display/display.srcs/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16.xci
-set_property used_in_implementation false [get_files -all e:/project/display/display.srcs/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16_ooc.xdc]
+read_ip -quiet E:/project/Experiment_5/display/display.srcs/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16.xci
+set_property used_in_implementation false [get_files -all e:/project/Experiment_5/display/display.srcs/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16_ooc.xdc]
 
-read_ip -quiet E:/project/display/display.srcs/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16.xci
-set_property used_in_implementation false [get_files -all e:/project/display/display.srcs/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16_ooc.xdc]
+read_ip -quiet E:/project/Experiment_5/display/display.srcs/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16.xci
+set_property used_in_implementation false [get_files -all e:/project/Experiment_5/display/display.srcs/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
