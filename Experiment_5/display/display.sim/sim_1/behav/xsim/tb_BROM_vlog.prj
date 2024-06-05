@@ -1,0 +1,16 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib "E:/project_/BJTU-ZTY-Honors-College-CCP-Experiments/Experiment_5/display/display.srcs/sources_1/new/define.svh" --include "../../../../display.srcs/sources_1/new" --include "../../../../display.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../display.srcs/sources_1/ip/rom3_width8_addra16/sim/rom3_width8_addra16.v" \
+"../../../../display.srcs/sources_1/ip/rom2_width8_addra16/sim/rom2_width8_addra16.v" \
+"../../../../display.srcs/sources_1/ip/rom1_width8_addra16/sim/rom1_width8_addra16.v" \
+"../../../../display.srcs/sources_1/ip/rom0_width8_addra16/sim/rom0_width8_addra16.v" \
+
+sv xil_defaultlib "E:/project_/BJTU-ZTY-Honors-College-CCP-Experiments/Experiment_5/display/display.srcs/sources_1/new/define.svh" --include "../../../../display.srcs/sources_1/new" --include "../../../../display.srcs/sources_1/ip/clk_wiz_0" \
+"../../../../display.srcs/sources_1/new/rom_bit_extension.sv" \
+"../../../../display.srcs/sim_1/new/brom_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
