@@ -58,4 +58,27 @@
 > 完成第五次实验的**仿真以及上板**
 > 
 > 可能存在未知问题
+
+### 2024.6.12
+
+> 更新第六次实验
+>
+> 完成第六次实验的**仿真与上板**
+>
+> 新增新的可执行MIPS指令：**XOR,NOR,ANDI,ORI,XORI,SLL,SRL,SRA,SLLV,SRLV,SRAV,BLTZ,BGEZ,ADDU,SUB,MULT**
+>
+> 为了避免**雷同**，此次实验将**不会同步**本人设计的汇编指令以及cpu的仿真验证设计
+>
+> 请大家**自行设计**
+>
+> 6次实验已**全部更新完毕**
+>
 > 
+
+### 完结撒花
+
+- CPU最终如下
+![cpu](https://github.com/Pengo0o/BJTU-ZTY-Honors-College-CCP-Experiments/blob/main/img/CPU.png)
+
+- 板验最终如下，送给**我所爱的人**
+![final_result](https://github.com/Pengo0o/BJTU-ZTY-Honors-College-CCP-Experiments/blob/main/img/final_result.jpg)
