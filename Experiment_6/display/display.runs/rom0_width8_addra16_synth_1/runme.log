@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log rom0_width8_addra16.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source rom0_width8_addra16.tcl
+
