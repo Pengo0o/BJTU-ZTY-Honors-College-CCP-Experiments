@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Tue Jun 11 23:15:18 2024">
+<application name="pa" timeStamp="Wed Jun 12 08:28:47 2024">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="02276ae83c214897b10b9a78f1a8d2a2" type="ProjectID"/>
 <property name="ProjectIteration" value="6" type="ProjectIteration"/>
@@ -32,6 +32,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ProgramDevice" value="2" type="JavaHandler"/>
 <property name="RecustomizeCore" value="30" type="JavaHandler"/>
 <property name="RunBitgen" value="6" type="JavaHandler"/>
+<property name="RunSchematic" value="1" type="JavaHandler"/>
 <property name="RunSynthesis" value="23" type="JavaHandler"/>
 <property name="SaveProjectAs" value="1" type="JavaHandler"/>
 <property name="SetTopNode" value="6" type="JavaHandler"/>
@@ -54,7 +55,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="BaseDialog_NO" value="1" type="GuiHandlerData"/>
 <property name="BaseDialog_OK" value="105" type="GuiHandlerData"/>
 <property name="BaseDialog_YES" value="7" type="GuiHandlerData"/>
-<property name="CmdMsgDialog_OK" value="12" type="GuiHandlerData"/>
+<property name="CmdMsgDialog_OK" value="13" type="GuiHandlerData"/>
 <property name="ConfirmSaveTextEditsDialog_YES" value="1" type="GuiHandlerData"/>
 <property name="ConstraintsChooserPanel_CREATE_FILE" value="1" type="GuiHandlerData"/>
 <property name="CoreTreeTablePanel_CORE_TREE_TABLE" value="18" type="GuiHandlerData"/>
@@ -64,11 +65,11 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="ExpRunTreePanel_EXP_RUN_TREE_TABLE" value="2" type="GuiHandlerData"/>
 <property name="FPGAChooser_FAMILY" value="1" type="GuiHandlerData"/>
 <property name="FPGAChooser_FPGA_TABLE" value="1" type="GuiHandlerData"/>
-<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="469" type="GuiHandlerData"/>
+<property name="FileSetPanel_FILE_SET_PANEL_TREE" value="477" type="GuiHandlerData"/>
 <property name="FileSetPanel_MESSAGES" value="1" type="GuiHandlerData"/>
 <property name="FloatingTopDialog_IGNORE_AND_CONTINUE_WITH_INVALID_TOP" value="1" type="GuiHandlerData"/>
 <property name="FloatingTopDialog_SPECIFY_NEW_TOP_MODULE" value="1" type="GuiHandlerData"/>
-<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="168" type="GuiHandlerData"/>
+<property name="FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE" value="171" type="GuiHandlerData"/>
 <property name="GettingStartedView_CREATE_NEW_PROJECT" value="2" type="GuiHandlerData"/>
 <property name="HACGCCoeFileWidget_BROWSE" value="29" type="GuiHandlerData"/>
 <property name="HCodeEditor_BLANK_OPERATIONS" value="4" type="GuiHandlerData"/>
@@ -138,9 +139,9 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="WaveformView_NEXT_TRANSITION" value="1" type="GuiHandlerData"/>
 </item>
 <item name="Other">
-<property name="GuiMode" value="81" type="GuiMode"/>
+<property name="GuiMode" value="87" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
-<property name="TclMode" value="51" type="TclMode"/>
+<property name="TclMode" value="57" type="TclMode"/>
 </item>
 </section>
 </application>
