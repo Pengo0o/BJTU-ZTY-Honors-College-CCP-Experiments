@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='E:/project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.runs/rom0_width8_addra16_synth_1'
+HD_PWD='E:/project/Experiment_6/display/display.runs/rom0_width8_addra16_synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

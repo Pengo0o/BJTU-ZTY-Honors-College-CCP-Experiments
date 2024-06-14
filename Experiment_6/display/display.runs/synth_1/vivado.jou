@@ -2,8 +2,8 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Tue Jun 11 23:15:21 2024
-# Process ID: 27640
+# Start of session at: Fri Jun 14 21:45:11 2024
+# Process ID: 2540
 # Current directory: E:/project/Experiment_6/display/display.runs/synth_1
 # Command line: vivado.exe -log top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
 # Log file: E:/project/Experiment_6/display/display.runs/synth_1/top.vds

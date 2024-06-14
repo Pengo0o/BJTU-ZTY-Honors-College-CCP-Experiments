@@ -28,6 +28,7 @@ set_property parent.project_path E:/project/Experiment_6/display/display.xpr [cu
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
+set_property ip_output_repo e:/project/Experiment_6/display/display.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 add_files E:/project/Experiment_6/display/display.srcs/sources_1/COE/Lab_4_1_0.coe
 add_files E:/project/Experiment_6/display/display.srcs/sources_1/COE/Lab_4_1_1.coe
@@ -35,6 +36,7 @@ add_files E:/project/Experiment_6/display/display.srcs/sources_1/COE/Lab_4_1_2.c
 add_files E:/project/Experiment_6/display/display.srcs/sources_1/COE/Lab_4_1_3.coe
 read_verilog E:/project/Experiment_6/display/display.srcs/sources_1/new/define.svh
 set_property file_type "Verilog Header" [get_files E:/project/Experiment_6/display/display.srcs/sources_1/new/define.svh]
+set_property is_global_include true [get_files E:/project/Experiment_6/display/display.srcs/sources_1/new/define.svh]
 read_verilog -library xil_defaultlib -sv {
   E:/project/Experiment_6/display/display.srcs/sources_1/new/BRAM.sv
   E:/project/Experiment_6/display/display.srcs/sources_1/new/W_and_R.sv
@@ -50,15 +52,6 @@ read_verilog -library xil_defaultlib -sv {
   E:/project/Experiment_6/display/display.srcs/sources_1/new/seg7.sv
   E:/project/Experiment_6/display/display.srcs/sources_1/new/top.sv
 }
-read_ip -quiet E:/project/Experiment_6/display/display.srcs/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16.xci
-set_property used_in_implementation false [get_files -all e:/project/Experiment_6/display/display.srcs/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16_ooc.xdc]
-
-read_ip -quiet E:/project/Experiment_6/display/display.srcs/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16.xci
-set_property used_in_implementation false [get_files -all e:/project/Experiment_6/display/display.srcs/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16_ooc.xdc]
-
-read_ip -quiet E:/project/Experiment_6/display/display.srcs/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16.xci
-set_property used_in_implementation false [get_files -all e:/project/Experiment_6/display/display.srcs/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16_ooc.xdc]
-
 read_ip -quiet E:/project/Experiment_6/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci
 set_property used_in_implementation false [get_files -all e:/project/Experiment_6/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0_board.xdc]
 set_property used_in_implementation false [get_files -all e:/project/Experiment_6/display/display.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xdc]
@@ -69,6 +62,15 @@ set_property used_in_implementation false [get_files -all e:/project/Experiment_
 
 read_ip -quiet E:/project/Experiment_6/display/display.srcs/sources_1/ip/rom0_width8_addra16/rom0_width8_addra16.xci
 set_property used_in_implementation false [get_files -all e:/project/Experiment_6/display/display.srcs/sources_1/ip/rom0_width8_addra16/rom0_width8_addra16_ooc.xdc]
+
+read_ip -quiet E:/project/Experiment_6/display/display.srcs/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16.xci
+set_property used_in_implementation false [get_files -all e:/project/Experiment_6/display/display.srcs/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16_ooc.xdc]
+
+read_ip -quiet E:/project/Experiment_6/display/display.srcs/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16.xci
+set_property used_in_implementation false [get_files -all e:/project/Experiment_6/display/display.srcs/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16_ooc.xdc]
+
+read_ip -quiet E:/project/Experiment_6/display/display.srcs/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16.xci
+set_property used_in_implementation false [get_files -all e:/project/Experiment_6/display/display.srcs/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -81,8 +83,6 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 read_xdc E:/project/Experiment_6/display/display.srcs/constrs_1/new/top.xdc
 set_property used_in_implementation false [get_files E:/project/Experiment_6/display/display.srcs/constrs_1/new/top.xdc]
 
-read_xdc dont_touch.xdc
-set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 

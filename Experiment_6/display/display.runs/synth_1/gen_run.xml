@@ -1,43 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1718118918">
+<GenRun Id="synth_1" LaunchPart="xc7k325tffg900-2" LaunchTime="1718372705">
   <File Type="PA-TCL" Name="top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="top_reports.tcl"/>
   <File Type="RDS-RDS" Name="top.vds"/>
   <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="top_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16.xci">
+    <File Path="$PSRCDIR/sources_1/new/define.svh">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/ip/rom3_width8_addra16/rom3_width8_addra16.xci"/>
-        <Attr Name="ImportTime" Val="1717117098"/>
+        <Attr Name="IsGlobalInclude" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/define.svh"/>
+        <Attr Name="ImportTime" Val="1717298764"/>
         <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16.xci">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/ip/rom2_width8_addra16/rom2_width8_addra16.xci"/>
-        <Attr Name="ImportTime" Val="1717117050"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16.xci">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/ip/rom1_width8_addra16/rom1_width8_addra16.xci"/>
-        <Attr Name="ImportTime" Val="1717116882"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/BRAM.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/BRAM.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/BRAM.sv"/>
         <Attr Name="ImportTime" Val="1716510880"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -46,24 +31,16 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/W_and_R.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/W_and_R.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/W_and_R.sv"/>
         <Attr Name="ImportTime" Val="1716510882"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/define.svh">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/define.svh"/>
-        <Attr Name="ImportTime" Val="1717298764"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PSRCDIR/sources_1/new/alu.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/alu.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/alu.sv"/>
         <Attr Name="ImportTime" Val="1718106842"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -72,7 +49,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/dis_buffer.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/dis_buffer.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/dis_buffer.sv"/>
         <Attr Name="ImportTime" Val="1718104971"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -81,7 +58,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/display.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/display.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/display.sv"/>
         <Attr Name="ImportTime" Val="1715431314"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -90,7 +67,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/inst_dec.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/inst_dec.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/inst_dec.sv"/>
         <Attr Name="ImportTime" Val="1717856256"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -99,7 +76,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/mem_access.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/mem_access.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/mem_access.sv"/>
         <Attr Name="ImportTime" Val="1716514114"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -108,7 +85,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/micro_cpu.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/micro_cpu.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/micro_cpu.sv"/>
         <Attr Name="ImportTime" Val="1717300684"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -117,7 +94,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/pc.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/pc.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/pc.sv"/>
         <Attr Name="ImportTime" Val="1717117722"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -126,7 +103,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/regfile.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/regfile.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/regfile.sv"/>
         <Attr Name="ImportTime" Val="1715498890"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -135,7 +112,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/rom_bit_extension.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/rom_bit_extension.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/rom_bit_extension.sv"/>
         <Attr Name="ImportTime" Val="1717117110"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -144,7 +121,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/seg7.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/seg7.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/seg7.sv"/>
         <Attr Name="ImportTime" Val="1715431384"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -153,7 +130,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/top.sv">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/top.sv"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/new/top.sv"/>
         <Attr Name="ImportTime" Val="1718107134"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -162,7 +139,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/COE/Lab_4_1_0.coe">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/COE/Lab_4_1_0.coe"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/COE/Lab_4_1_0.coe"/>
         <Attr Name="ImportTime" Val="1718107662"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -170,7 +147,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/COE/Lab_4_1_1.coe">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/COE/Lab_4_1_1.coe"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/COE/Lab_4_1_1.coe"/>
         <Attr Name="ImportTime" Val="1718107680"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -178,7 +155,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/COE/Lab_4_1_2.coe">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/COE/Lab_4_1_2.coe"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/COE/Lab_4_1_2.coe"/>
         <Attr Name="ImportTime" Val="1718107697"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -186,7 +163,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/COE/Lab_4_1_3.coe">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/COE/Lab_4_1_3.coe"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/sources_1/COE/Lab_4_1_3.coe"/>
         <Attr Name="ImportTime" Val="1718107715"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -202,7 +179,7 @@
     <Filter Type="Constrs"/>
     <File Path="$PSRCDIR/constrs_1/new/top.xdc">
       <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../../../project/CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/constrs_1/new/top.xdc"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../CPUDesignVerify/CPUDesignVerify/DataFlowJumpInst.srcs/constrs_1/new/top.xdc"/>
         <Attr Name="ImportTime" Val="1717419070"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -222,7 +199,10 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="rom3_width8_addra16"/>
   <BlockFileSet Type="BlockSrcs" Name="clk_wiz_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="rom1_width8_addra16"/>
   <BlockFileSet Type="BlockSrcs" Name="width8_addra14"/>
   <BlockFileSet Type="BlockSrcs" Name="rom0_width8_addra16"/>
+  <BlockFileSet Type="BlockSrcs" Name="rom2_width8_addra16"/>
 </GenRun>

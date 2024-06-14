@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Sun Jun  2 10:31:31 2024
-// Host        : LAPTOP-NK3UQCGD running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub -rename_top rom0_width8_addra16 -prefix
-//               rom0_width8_addra16_ rom0_width8_addra16_stub.v
+// Date        : Wed Jun 12 11:43:39 2024
+// Host        : Peng0v0 running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode synth_stub
+//               E:/project/Experiment_6/display/display.srcs/sources_1/ip/rom0_width8_addra16/rom0_width8_addra16_stub.v
 // Design      : rom0_width8_addra16
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7k325tffg900-2

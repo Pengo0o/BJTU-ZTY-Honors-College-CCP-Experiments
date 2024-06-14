@@ -20,7 +20,7 @@ vlog -work blk_mem_gen_v8_4_4 -64 \
 "../../../ipstatic/simulation/blk_mem_gen_v8_4.v" \
 
 vlog -work xil_defaultlib -64 \
-"../../../../DataFlowJumpInst.srcs/sources_1/ip/rom2_width8_addra16/sim/rom2_width8_addra16.v" \
+"../../../../display.srcs/sources_1/ip/rom2_width8_addra16/sim/rom2_width8_addra16.v" \
 
 vlog -work xil_defaultlib \
 "glbl.v"

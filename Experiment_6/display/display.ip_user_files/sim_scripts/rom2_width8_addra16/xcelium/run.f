@@ -9,7 +9,7 @@
   "../../../ipstatic/simulation/blk_mem_gen_v8_4.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
-  "../../../../DataFlowJumpInst.srcs/sources_1/ip/rom2_width8_addra16/sim/rom2_width8_addra16.v" \
+  "../../../../display.srcs/sources_1/ip/rom2_width8_addra16/sim/rom2_width8_addra16.v" \
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   glbl.v
